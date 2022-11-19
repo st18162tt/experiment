@@ -1,0 +1,54 @@
+﻿{
+  "name": [
+    "プレイヤー1",
+    "プレイヤー2"
+  ],
+  "title": [
+    "初心者",
+    "初心者"
+  ],
+  "dan": [
+    "新人",
+    "新人"
+  ],
+  "danGold": [
+    false,
+    false
+  ],
+  "danType": [
+    0,
+    0
+  ],
+  "titleType": [
+    0,
+    0
+  ],
+  "puchiChara": [
+    "0",
+    "0"
+  ],
+  "medals": [
+    13,
+    0
+  ],
+  "character": [
+    0,
+    0
+  ],
+  "characterName": [
+    "0",
+    "0"
+  ],
+  "danTitles": [
+    null,
+    null
+  ],
+  "namePlateTitles": [
+    null,
+    null
+  ],
+  "unlockedPuchicharas": [
+    [],
+    []
+  ]
+}

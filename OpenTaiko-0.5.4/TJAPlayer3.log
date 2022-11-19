@@ -1,0 +1,463 @@
+
+DTXMania powered by YAMAHA Silent Session Drums
+Release: 0.5.4.0
+
+2022/11/19 10:28:02.945 [INFO] ----------------------
+2022/11/19 10:28:02.946 [INFO] ■ アプリケーションの初期化
+2022/11/19 10:28:02.946 [INFO] OS Version: Microsoft Windows NT 6.2.9200.0
+2022/11/19 10:28:02.946 [INFO] ProcessorCount: 8
+2022/11/19 10:28:02.946 [INFO] CLR Version: 4.0.30319.42000
+2022/11/19 10:28:03.227 [INFO] スキンの初期化を行います。
+2022/11/19 10:28:03.231 [INFO]     SkinPath検出: D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\
+2022/11/19 10:28:03.231 [INFO]     SkinPath入力: D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\
+2022/11/19 10:28:03.232 [INFO]     SkinPath設定: D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\
+2022/11/19 10:28:03.233 [INFO]     システムサウンドを読み込みました。(Sounds\Move.ogg)
+2022/11/19 10:28:03.233 [INFO]     システムサウンドを読み込みました。(Sounds\Decide.ogg)
+2022/11/19 10:28:03.233 [INFO]     システムサウンドを読み込みました。(Sounds\Change.ogg)
+2022/11/19 10:28:03.233 [INFO]     システムサウンドを読み込みました。(Sounds\Cancel.ogg)
+2022/11/19 10:28:03.233 [WARNING]     ファイルが存在しません。: Sounds\Audience.ogg
+2022/11/19 10:28:03.233 [INFO]     システムサウンドを読み込みました。(Sounds\Audience.ogg)
+2022/11/19 10:28:03.233 [WARNING]     ファイルが存在しません。: Sounds\Game start.ogg
+2022/11/19 10:28:03.233 [INFO]     システムサウンドを読み込みました。(Sounds\Game start.ogg)
+2022/11/19 10:28:03.233 [WARNING]     ファイルが存在しません。: Sounds\Full combo.ogg
+2022/11/19 10:28:03.234 [INFO]     システムサウンドを読み込みました。(Sounds\Full combo.ogg)
+2022/11/19 10:28:03.234 [WARNING]     ファイルが存在しません。: Sounds\BGM\Title.ogg
+2022/11/19 10:28:03.234 [INFO]     システムサウンドを読み込みました。(Sounds\BGM\Title.ogg)
+2022/11/19 10:28:03.234 [WARNING]     ファイルが存在しません。: Sounds\BGM\SongSelect.ogg
+2022/11/19 10:28:03.234 [INFO]     システムサウンドを読み込みました。(Sounds\BGM\SongSelect.ogg)
+2022/11/19 10:28:03.234 [WARNING]     ファイルが存在しません。: Sounds\balloon.ogg
+2022/11/19 10:28:03.234 [INFO]     システムサウンドを読み込みました。(Sounds\balloon.ogg)
+2022/11/19 10:28:03.234 [INFO]     システムサウンドを読み込みました。(Sounds\SongDecide.ogg)
+2022/11/19 10:28:03.234 [WARNING]     ファイルが存在しません。: Sounds\BGM\Result_In.ogg
+2022/11/19 10:28:03.234 [INFO]     システムサウンドを読み込みました。(Sounds\BGM\Result_In.ogg)
+2022/11/19 10:28:03.234 [WARNING]     ファイルが存在しません。: Sounds\Resume.ogg
+2022/11/19 10:28:03.234 [INFO]     システムサウンドを読み込みました。(Sounds\Resume.ogg)
+2022/11/19 10:28:03.234 [INFO]     システムサウンドを読み込みました。(Sounds\Pause.ogg)
+2022/11/19 10:28:03.234 [INFO]     システムサウンドを読み込みました。(Sounds\Scroll.ogg)
+2022/11/19 10:28:03.234 [INFO]     システムサウンドを読み込みました。(Sounds\Jump Point.ogg)
+2022/11/19 10:28:03.235 [INFO]     システムサウンドを読み込みました。(Sounds\Traning Skip.ogg)
+2022/11/19 10:28:03.254 [INFO]     スキンの初期化を完了しました。
+2022/11/19 10:28:03.254 [INFO] タイマの初期化を行います。
+2022/11/19 10:28:03.255 [INFO]     タイマの初期化を完了しました。
+2022/11/19 10:28:03.255 [INFO] FPSカウンタの初期化を行います。
+2022/11/19 10:28:03.255 [INFO]     FPSカウンタを生成しました。
+2022/11/19 10:28:03.255 [INFO] 文字コンソールの初期化を行います。
+2022/11/19 10:28:03.255 [INFO]     文字コンソールを生成しました。
+2022/11/19 10:28:03.263 [INFO]     文字コンソールを活性化しました。
+2022/11/19 10:28:03.263 [INFO]     文字コンソールの初期化を完了しました。
+2022/11/19 10:28:03.263 [INFO] DirectInput, MIDI入力の初期化を行います。
+2022/11/19 10:28:03.290 [INFO]     キーボード を生成しました。
+2022/11/19 10:28:03.294 [INFO]     マウス を生成しました。
+2022/11/19 10:28:03.433 [INFO]     MIDI入力デバイス数: 0
+2022/11/19 10:28:03.433 [INFO]     DirectInput の初期化を完了しました。
+2022/11/19 10:28:03.433 [INFO] パッドの初期化を行います。
+2022/11/19 10:28:03.433 [INFO]     パッドの初期化を完了しました。
+2022/11/19 10:28:03.433 [INFO] サウンドデバイスの初期化を行います。
+2022/11/19 10:28:03.437 [INFO]     BASS (WASAPI) の初期化を開始します。
+2022/11/19 10:28:03.626 [INFO]     BASS を初期化しました。(WASAPI共有モード, 100ms, 更新間隔10ms)
+2022/11/19 10:28:03.630 [INFO]     BASS_CONFIG_UpdatePeriod=0
+2022/11/19 10:28:03.630 [INFO]     BASS_CONFIG_UpdateThreads=0
+2022/11/19 10:28:03.630 [INFO]     Initializing loudness scanning, song gain control, and sound group level control...
+2022/11/19 10:28:03.635 [INFO]         LoudnessMetadataScanner.StartBackgroundScanning: BS1770GAIN is not available. A background scanning thread will not be started.
+2022/11/19 10:28:03.639 [INFO]     Initialized loudness scanning, song gain control, and sound group level control.
+2022/11/19 10:28:03.641 [INFO]     サウンドデバイスの初期化を完了しました。
+2022/11/19 10:28:03.641 [INFO] 曲リストの初期化を行います。
+2022/11/19 10:28:03.642 [INFO]     曲リストの初期化を完了しました。
+2022/11/19 10:28:03.706 [INFO] プラグインの検索と生成を行います。
+2022/11/19 10:28:03.707 [WARNING]     プラグインフォルダが存在しません。(D:\GitHub\experiment\OpenTaiko-0.5.4\Plugins\)
+2022/11/19 10:28:03.707 [INFO]     プラグインの検索と生成を完了しました。
+2022/11/19 10:28:03.710 [INFO] アプリケーションの初期化を完了しました。
+2022/11/19 10:28:03.710 [INFO] ----------------------
+2022/11/19 10:28:03.710 [INFO] ■ 起動
+2022/11/19 10:28:03.710 [INFO] 起動ステージを活性化します。
+2022/11/19 10:28:03.726 [INFO]     起動ステージの活性化を完了しました。
+2022/11/19 10:28:03.764 [INFO] 0) システムサウンドを構築します。
+2022/11/19 10:28:03.764 [WARNING]     ファイルが存在しません。: Sounds\Setup BGM.ogg
+2022/11/19 10:28:03.772 [INFO]     システムサウンドを読み込みました。(Sounds\Move.ogg)
+2022/11/19 10:28:03.773 [INFO]     システムサウンドを読み込みました。(Sounds\Decide.ogg)
+2022/11/19 10:28:03.775 [INFO]     システムサウンドを読み込みました。(Sounds\Change.ogg)
+2022/11/19 10:28:03.777 [INFO]     システムサウンドを読み込みました。(Sounds\Cancel.ogg)
+2022/11/19 10:28:03.777 [WARNING]     ファイルが存在しません。: Sounds\Audience.ogg
+2022/11/19 10:28:03.777 [INFO]     システムサウンドを読み込みました。(Sounds\Audience.ogg)
+2022/11/19 10:28:03.777 [WARNING]     ファイルが存在しません。: Sounds\Game start.ogg
+2022/11/19 10:28:03.777 [INFO]     システムサウンドを読み込みました。(Sounds\Game start.ogg)
+2022/11/19 10:28:03.777 [WARNING]     ファイルが存在しません。: Sounds\Full combo.ogg
+2022/11/19 10:28:03.777 [INFO]     システムサウンドを読み込みました。(Sounds\Full combo.ogg)
+2022/11/19 10:28:03.777 [WARNING]     ファイルが存在しません。: Sounds\BGM\Title.ogg
+2022/11/19 10:28:03.777 [INFO]     システムサウンドを読み込みました。(Sounds\BGM\Title.ogg)
+2022/11/19 10:28:03.777 [WARNING]     ファイルが存在しません。: Sounds\BGM\SongSelect.ogg
+2022/11/19 10:28:03.777 [INFO]     システムサウンドを読み込みました。(Sounds\BGM\SongSelect.ogg)
+2022/11/19 10:28:03.777 [WARNING]     ファイルが存在しません。: Sounds\balloon.ogg
+2022/11/19 10:28:03.777 [INFO]     システムサウンドを読み込みました。(Sounds\balloon.ogg)
+2022/11/19 10:28:03.779 [INFO]     システムサウンドを読み込みました。(Sounds\SongDecide.ogg)
+2022/11/19 10:28:03.779 [WARNING]     ファイルが存在しません。: Sounds\BGM\Result_In.ogg
+2022/11/19 10:28:03.779 [INFO]     システムサウンドを読み込みました。(Sounds\BGM\Result_In.ogg)
+2022/11/19 10:28:03.779 [WARNING]     ファイルが存在しません。: Sounds\Resume.ogg
+2022/11/19 10:28:03.779 [INFO]     システムサウンドを読み込みました。(Sounds\Resume.ogg)
+2022/11/19 10:28:03.781 [INFO]     システムサウンドを読み込みました。(Sounds\Pause.ogg)
+2022/11/19 10:28:03.782 [INFO]     システムサウンドを読み込みました。(Sounds\Scroll.ogg)
+2022/11/19 10:28:03.784 [INFO]     システムサウンドを読み込みました。(Sounds\Jump Point.ogg)
+2022/11/19 10:28:03.786 [INFO]     システムサウンドを読み込みました。(Sounds\Traning Skip.ogg)
+2022/11/19 10:28:03.786 [INFO] 1) songlist.dbを読み込みます。
+2022/11/19 10:28:03.786 [INFO]     songlist.db の読み込みを完了しました。[0スコア]
+2022/11/19 10:28:03.786 [INFO] 起動所要時間: 00:00:00.0219408
+2022/11/19 10:28:03.800 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\Overlay.png)
+2022/11/19 10:28:03.815 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\1P_NamePlate.png)
+2022/11/19 10:28:03.815 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\2P_NamePlate.png)
+2022/11/19 10:28:03.817 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\9_NamePlateEffect\Title\0\Big.png)
+2022/11/19 10:28:03.817 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\9_NamePlateEffect\Title\0\Small.png)
+2022/11/19 10:28:03.822 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\9_NamePlateEffect\Title\7\Big.png)
+2022/11/19 10:28:03.822 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\9_NamePlateEffect\Title\7\Small.png)
+2022/11/19 10:28:03.955 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\1_Title\ModeSelect_Bar_Chara_8.png)
+2022/11/19 10:28:03.955 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\1_Title\ModeSelect_Bar_Chara_9.png)
+2022/11/19 10:28:03.955 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\1_Title\ModeSelect_Bar_Chara_10.png)
+2022/11/19 10:28:03.955 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\1_Title\ModeSelect_Bar_Chara_11.png)
+2022/11/19 10:28:03.955 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\1_Title\ModeSelect_Bar_Chara_12.png)
+2022/11/19 10:28:03.955 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\1_Title\ModeSelect_Bar_Chara_13.png)
+2022/11/19 10:28:04.038 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\3_SongSelect\Level.png)
+2022/11/19 10:28:04.039 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\3_SongSelect\Bar_Center.png)
+2022/11/19 10:28:04.045 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\3_SongSelect\Frame_Box.png)
+2022/11/19 10:28:04.045 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\3_SongSelect\Frame_BackBox.png)
+2022/11/19 10:28:04.045 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\3_SongSelect\Frame_Random.png)
+2022/11/19 10:28:04.048 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\3_SongSelect\Bar_Genre_RecentryPlaySong.png)
+2022/11/19 10:28:04.079 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\3_SongSelect\ScoreWindow_0.png)
+2022/11/19 10:28:04.079 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\3_SongSelect\ScoreWindow_1.png)
+2022/11/19 10:28:04.079 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\3_SongSelect\ScoreWindow_2.png)
+2022/11/19 10:28:04.079 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\3_SongSelect\ScoreWindow_3.png)
+2022/11/19 10:28:04.079 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\3_SongSelect\ScoreWindow_4.png)
+2022/11/19 10:28:04.080 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\3_SongSelect\ScoreWindow_5.png)
+2022/11/19 10:28:04.080 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\3_SongSelect\ScoreWindow_6.png)
+2022/11/19 10:28:04.080 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\3_SongSelect\ScoreWindow_Text.png)
+2022/11/19 10:28:04.843 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\6_Taiko\1P_PlayerNumber.png)
+2022/11/19 10:28:04.844 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\6_Taiko\2P_PlayerNumber.png)
+2022/11/19 10:28:04.851 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\4_CourseSymbol\Tower.png)
+2022/11/19 10:28:04.851 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\4_CourseSymbol\Dan.png)
+2022/11/19 10:28:04.851 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\4_CourseSymbol\Shin.png)
+2022/11/19 10:28:05.045 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\0.png)
+2022/11/19 10:28:05.045 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\0.png)
+2022/11/19 10:28:05.045 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\0.png)
+2022/11/19 10:28:05.045 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\0.png)
+2022/11/19 10:28:05.045 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\1.png)
+2022/11/19 10:28:05.045 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\1.png)
+2022/11/19 10:28:05.045 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\1.png)
+2022/11/19 10:28:05.045 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\1.png)
+2022/11/19 10:28:05.045 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\2.png)
+2022/11/19 10:28:05.045 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\2.png)
+2022/11/19 10:28:05.045 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\2.png)
+2022/11/19 10:28:05.046 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\2.png)
+2022/11/19 10:28:05.046 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\3.png)
+2022/11/19 10:28:05.046 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\3.png)
+2022/11/19 10:28:05.046 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\3.png)
+2022/11/19 10:28:05.046 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\3.png)
+2022/11/19 10:28:05.046 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\4.png)
+2022/11/19 10:28:05.046 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\4.png)
+2022/11/19 10:28:05.046 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\4.png)
+2022/11/19 10:28:05.046 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\4.png)
+2022/11/19 10:28:05.046 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\5.png)
+2022/11/19 10:28:05.046 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\5.png)
+2022/11/19 10:28:05.046 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\5.png)
+2022/11/19 10:28:05.046 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\5.png)
+2022/11/19 10:28:05.046 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\6.png)
+2022/11/19 10:28:05.047 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\6.png)
+2022/11/19 10:28:05.047 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\6.png)
+2022/11/19 10:28:05.047 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\6.png)
+2022/11/19 10:28:05.047 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\7.png)
+2022/11/19 10:28:05.047 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\7.png)
+2022/11/19 10:28:05.047 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\7.png)
+2022/11/19 10:28:05.047 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\7.png)
+2022/11/19 10:28:05.047 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\8.png)
+2022/11/19 10:28:05.047 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\8.png)
+2022/11/19 10:28:05.047 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\8.png)
+2022/11/19 10:28:05.047 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\8.png)
+2022/11/19 10:28:05.047 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\9.png)
+2022/11/19 10:28:05.048 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\9.png)
+2022/11/19 10:28:05.048 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\9.png)
+2022/11/19 10:28:05.048 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\9.png)
+2022/11/19 10:28:05.048 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\10.png)
+2022/11/19 10:28:05.048 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\10.png)
+2022/11/19 10:28:05.048 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\10.png)
+2022/11/19 10:28:05.048 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\10.png)
+2022/11/19 10:28:05.048 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\11.png)
+2022/11/19 10:28:05.048 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\11.png)
+2022/11/19 10:28:05.048 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\11.png)
+2022/11/19 10:28:05.048 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\11.png)
+2022/11/19 10:28:05.048 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\12.png)
+2022/11/19 10:28:05.048 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\12.png)
+2022/11/19 10:28:05.049 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\12.png)
+2022/11/19 10:28:05.049 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\12.png)
+2022/11/19 10:28:05.049 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\13.png)
+2022/11/19 10:28:05.049 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\13.png)
+2022/11/19 10:28:05.049 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\13.png)
+2022/11/19 10:28:05.049 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\13.png)
+2022/11/19 10:28:05.049 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\14.png)
+2022/11/19 10:28:05.049 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\14.png)
+2022/11/19 10:28:05.049 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\14.png)
+2022/11/19 10:28:05.049 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\14.png)
+2022/11/19 10:28:05.065 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\12_Lane\Clap.png)
+2022/11/19 10:28:05.078 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\9_End\Clear_Chara.png)
+2022/11/19 10:28:05.078 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\9_End\Clear_Text.png)
+2022/11/19 10:28:05.078 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\9_End\Clear_Text_End.png)
+2022/11/19 10:28:05.087 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\9_End\ClearFailed\Clear_Failed.png)
+2022/11/19 10:28:05.087 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\9_End\ClearFailed\Clear_Failed1.png)
+2022/11/19 10:28:05.087 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\9_End\ClearFailed\Clear_Failed2.png)
+2022/11/19 10:28:05.358 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\9_End\FullCombo\loop_0.png)
+2022/11/19 10:28:05.358 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\9_End\FullCombo\loop_1.png)
+2022/11/19 10:28:05.358 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\9_End\FullCombo\loop_2.png)
+2022/11/19 10:28:05.606 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\9_End\DondaFullCombo\loop_0.png)
+2022/11/19 10:28:05.606 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\9_End\DondaFullCombo\loop_1.png)
+2022/11/19 10:28:05.606 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\9_End\DondaFullCombo\loop_2.png)
+2022/11/19 10:28:05.606 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\9_End\Dan0.png)
+2022/11/19 10:28:05.606 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\9_End\Dan1.png)
+2022/11/19 10:28:05.606 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\9_End\Dan2.png)
+2022/11/19 10:28:05.607 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\15_Failed\Game.png)
+2022/11/19 10:28:05.607 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\15_Failed\Stage.png)
+2022/11/19 10:28:05.607 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\16_Runner\0.png)
+2022/11/19 10:28:05.621 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\17_DanC\Gauge_Flush.png)
+2022/11/19 10:28:05.632 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\17_DanC\ExamUnit.png)
+2022/11/19 10:28:05.781 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\6_Result\Dan.png)
+2022/11/19 10:28:06.145 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\6_Result\Crown\Crown_0.png)
+2022/11/19 10:28:06.145 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\6_Result\Crown\Crown_1.png)
+2022/11/19 10:28:06.145 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\6_Result\Crown\Crown_2.png)
+2022/11/19 10:28:06.357 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\Global\Characters\0\Normal\0.png)
+2022/11/19 10:28:07.858 [INFO] 起動ステージを非活性化します。
+2022/11/19 10:28:07.859 [INFO]     起動ステージの非活性化を完了しました。
+2022/11/19 10:28:07.859 [INFO] ----------------------
+2022/11/19 10:28:07.860 [INFO] ■ タイトル
+2022/11/19 10:28:07.860 [INFO] タイトルステージを活性化します。
+2022/11/19 10:28:07.861 [WARNING]     ファイルが存在しません。: Sounds\Entry.ogg
+2022/11/19 10:28:07.861 [WARNING]     ファイルが存在しません。: Sounds\BGM\Title_Start.ogg
+2022/11/19 10:28:07.862 [INFO]     タイトルステージの活性化を完了しました。
+2022/11/19 10:28:07.888 [INFO] ★曲データ検索スレッドを起動しました。
+2022/11/19 10:28:07.889 [INFO] enum2) 曲データを検索します。
+2022/11/19 10:28:07.890 [INFO]     検索パス: D:\GitHub\experiment\OpenTaiko-0.5.4\.\
+2022/11/19 10:28:07.987 [INFO]     曲データの検索を完了しました。[1曲1スコア]
+2022/11/19 10:28:07.987 [INFO] 1, 0
+2022/11/19 10:28:07.987 [INFO] enum4) songs.db になかった曲データ[1スコア]の情報をファイルから読み込んで反映します。
+2022/11/19 10:28:08.002 [INFO]     曲データへの反映を完了しました。[4/1スコア]
+2022/11/19 10:28:08.002 [INFO] enum5) 曲リストへの後処理を適用します。
+2022/11/19 10:28:08.005 [INFO]     曲リストへの後処理を完了しました。
+2022/11/19 10:28:08.005 [INFO] enum7) 曲データの情報を songlist.db へ出力します。
+2022/11/19 10:28:08.014 [ERROR]     System.Runtime.Serialization.SerializationException: アセンブリ 'OpenTaiko, Version=0.5.4.0, Culture=neutral, PublicKeyToken=null' の型 'TJAPlayer3.Dan_C' はシリアル化可能として設定されていません。
+   場所 System.Runtime.Serialization.FormatterServices.InternalGetSerializableMembers(RuntimeType type)
+   場所 System.Runtime.Serialization.FormatterServices.<>c__DisplayClass9_0.<GetSerializableMembers>b__0(MemberHolder _)
+   場所 System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   場所 System.Runtime.Serialization.FormatterServices.GetSerializableMembers(Type type, StreamingContext context)
+   場所 System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitMemberInfo()
+   場所 System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitSerialize(Type objectType, ISurrogateSelector surrogateSelector, StreamingContext context, SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, SerializationBinder binder)
+   場所 System.Runtime.Serialization.Formatters.Binary.ObjectWriter.WriteArray(WriteObjectInfo objectInfo, NameInfo memberNameInfo, WriteObjectInfo memberObjectInfo)
+   場所 System.Runtime.Serialization.Formatters.Binary.ObjectWriter.Write(WriteObjectInfo objectInfo, NameInfo memberNameInfo, NameInfo typeNameInfo)
+   場所 System.Runtime.Serialization.Formatters.Binary.ObjectWriter.Serialize(Object graph, Header[] inHeaders, __BinaryWriter serWriter, Boolean fCheck)
+   場所 System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(Stream serializationStream, Object graph, Header[] headers, Boolean fCheck)
+   場所 System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(Stream serializationStream, Object graph)
+   場所 TJAPlayer3.CEnumSongs.SerializeSongList(CSongs管理 cs, String strPathSongList) 場所 D:\Desktop\bak\Taiko Map Converter\Releases\OpenTaiko-0.5.4\TJAPlayer3\Stages\02.Title\CEnumSongs.cs:行 521
+2022/11/19 10:28:08.014 [ERROR]     例外が発生しましたが処理を継続します。 (9ad477a4-d922-412c-b87d-e3a49a608e92)
+2022/11/19 10:28:08.015 [INFO]     songlist.db への出力を完了しました。
+2022/11/19 10:28:08.015 [INFO] 曲探索所要時間: 00:00:00.1256416
+2022/11/19 10:28:16.645 [WARNING] ファイルが存在しません。: D:\GitHub\experiment\OpenTaiko-0.5.4\Global\Characters\0\Sounds\Title\Sanka.wav
+2022/11/19 10:28:20.617 [INFO] タイトルステージを非活性化します。
+2022/11/19 10:28:20.617 [INFO]     タイトルステージの非活性化を完了しました。
+2022/11/19 10:28:20.617 [INFO] ----------------------
+2022/11/19 10:28:20.617 [INFO] ■ 選曲
+2022/11/19 10:28:20.617 [INFO] 選曲ステージを活性化します。
+2022/11/19 10:28:20.617 [WARNING]     ファイルが存在しません。: D:\GitHub\experiment\OpenTaiko-0.5.4\Global\Characters\0\Sounds\Menu\SongSelect.wav
+2022/11/19 10:28:20.619 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\Screen option panels.png)
+2022/11/19 10:28:20.638 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_preimage panel.png)
+2022/11/19 10:28:20.638 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_sensor.png)
+2022/11/19 10:28:20.638 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_preimage default.png)
+2022/11/19 10:28:20.641 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_information_BG.png)
+2022/11/19 10:28:20.642 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_information.png)
+2022/11/19 10:28:20.642 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_information2.png)
+2022/11/19 10:28:20.673 [INFO]     選曲ステージの活性化を完了しました。
+2022/11/19 10:28:21.187 [WARNING] ファイルが存在しません。: Sounds\BGM\SongSelect_Start.ogg
+2022/11/19 10:28:23.596 [WARNING] DrawPrivateFont()の入力不正。最小値のbitmapを返します。
+2022/11/19 10:28:27.881 [WARNING] DrawPrivateFont()の入力不正。最小値のbitmapを返します。
+2022/11/19 10:28:29.717 [INFO] プレビューサウンドを生成しました。(D:\GitHub\experiment\OpenTaiko-0.5.4\Songs\04 Classical\天国と地獄\天国と地獄.ogg)
+2022/11/19 10:28:35.085 [WARNING] ファイルが存在しません。: D:\GitHub\experiment\OpenTaiko-0.5.4\Global\Characters\0\Sounds\Menu\DiffSelect.wav
+2022/11/19 10:28:55.618 [WARNING] ファイルが存在しません。: D:\GitHub\experiment\OpenTaiko-0.5.4\Global\Characters\0\Sounds\Menu\SongDecide.wav
+2022/11/19 10:28:59.202 [INFO] 選曲ステージを非活性化します。
+2022/11/19 10:28:59.205 [INFO]     選曲ステージの非活性化を完了しました。
+2022/11/19 10:28:59.205 [INFO] ----------------------
+2022/11/19 10:28:59.205 [INFO] ■ 曲読み込み
+2022/11/19 10:28:59.206 [INFO] 曲読み込みステージを活性化します。
+2022/11/19 10:28:59.206 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\4_SongLoading\Background.png)
+2022/11/19 10:28:59.225 [INFO]     曲読み込みステージの活性化を完了しました。
+2022/11/19 10:28:59.234 [WARNING] ファイルが存在しません。: Sounds\Now loading.ogg
+2022/11/19 10:28:59.241 [INFO] ----曲情報-----------------
+2022/11/19 10:28:59.242 [INFO] TITLE: 天国と地獄 序曲
+2022/11/19 10:28:59.242 [INFO] FILE: D:\GitHub\experiment\OpenTaiko-0.5.4\Songs\04 Classical\天国と地獄\天国と地獄.tja
+2022/11/19 10:28:59.242 [INFO] ---------------------------
+2022/11/19 10:28:59.242 [INFO] DTX読込所要時間:           00:00:00.0069809
+2022/11/19 10:29:00.517 [INFO] CSound.GroupLevel set: 90
+2022/11/19 10:29:00.517 [INFO] CSound.SetVolume: Gain:0. Automation Level: 0. Group Level: -0.915149811213502. Summed Gain: -0.915149811213502. Safe True Peak Gain: 0. Final Gain: -0.915149811213502.
+2022/11/19 10:29:00.517 [INFO] WAV読込所要時間(   1):     00:00:01.2757531
+2022/11/19 10:29:00.564 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\5_Background\0\Background.png)
+2022/11/19 10:29:00.575 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\Songs\04 Classical\天国と地獄\Dan_Plate.png)
+2022/11/19 10:29:00.638 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\ScreenSelect level numbers.png)
+2022/11/19 10:29:00.897 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\Songs\04 Classical\天国と地獄\Dan_Plate.png)
+2022/11/19 10:29:00.910 [WARNING] System.IO.IOException: 別のプロセスで使用されているため、プロセスはファイル 'D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Sounds\Dan\Section_First.wav' にアクセスできません。
+   場所 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   場所 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   場所 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   場所 FDK.CSound.tRIFFchunkedVorbisならDirectShowでDecodeする(String strファイル名, Byte[]& byArrWAVファイルイメージ) 場所 D:\Desktop\bak\Taiko Map Converter\Releases\OpenTaiko-0.5.4\FDK19\コード\03.サウンド\CSound.cs:行 1710
+2022/11/19 10:29:00.910 [WARNING] Warning: Section_First.wav : 読み込みに失敗しました。
+2022/11/19 10:29:00.930 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\13_Genre\Songs.png)
+2022/11/19 10:29:00.940 [INFO] 総読込時間:                00:00:01.7054591
+2022/11/19 10:29:02.202 [INFO] 曲読み込みステージを非活性化します。
+2022/11/19 10:29:02.202 [INFO]     曲読み込みステージの非活性化を完了しました。
+2022/11/19 10:29:02.202 [INFO] ----------------------
+2022/11/19 10:29:02.202 [INFO] ■ 演奏（ドラム画面）
+2022/11/19 10:31:08.714 [WARNING] ファイルが存在しません。: D:\GitHub\experiment\OpenTaiko-0.5.4\Global\Characters\0\Sounds\Clear\AllPerfect.wav
+2022/11/19 10:31:18.319 [INFO] CStage演奏画面共通 リソースの開放
+2022/11/19 10:31:18.326 [INFO] LoudnessMetadataScanner.StartBackgroundScanning: BS1770GAIN is not available. A background scanning thread will not be started.
+2022/11/19 10:31:18.326 [INFO] ----------------------
+2022/11/19 10:31:18.326 [INFO] ■ 結果
+2022/11/19 10:31:18.329 [INFO] 結果ステージを活性化します。
+2022/11/19 10:31:18.333 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\Songs\04 Classical\天国と地獄\Dan_Plate.png)
+2022/11/19 10:31:18.352 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\Screen option panels.png)
+2022/11/19 10:31:18.352 [INFO]     結果ステージの活性化を完了しました。
+2022/11/19 10:31:18.358 [WARNING] ファイルが存在しません。: Sounds\BGM\Result.ogg
+2022/11/19 10:31:24.263 [WARNING] ファイルが存在しません。: Sounds\Pon.ogg
+2022/11/19 10:31:26.783 [WARNING] ファイルが存在しません。: Sounds\ScoreDon.ogg
+2022/11/19 10:31:27.964 [WARNING] ファイルが存在しません。: Sounds\ResultScreen\RankIn.ogg
+2022/11/19 10:31:29.464 [WARNING] ファイルが存在しません。: Sounds\ResultScreen\CrownIn.ogg
+2022/11/19 10:31:31.889 [WARNING] ファイルが存在しません。: D:\GitHub\experiment\OpenTaiko-0.5.4\Global\Characters\0\Sounds\Result\ClearSuccess.wav
+2022/11/19 10:31:42.420 [INFO] ----------------------
+2022/11/19 10:31:42.420 [INFO] ■ Return to song select menu
+2022/11/19 10:31:42.420 [INFO] 選曲ステージを活性化します。
+2022/11/19 10:31:42.420 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\Screen option panels.png)
+2022/11/19 10:31:42.432 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_preimage panel.png)
+2022/11/19 10:31:42.432 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_sensor.png)
+2022/11/19 10:31:42.432 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_preimage default.png)
+2022/11/19 10:31:42.432 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_information_BG.png)
+2022/11/19 10:31:42.432 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_information.png)
+2022/11/19 10:31:42.432 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_information2.png)
+2022/11/19 10:31:42.461 [INFO]     選曲ステージの活性化を完了しました。
+2022/11/19 10:32:05.945 [INFO] 選曲ステージを非活性化します。
+2022/11/19 10:32:05.945 [INFO]     選曲ステージの非活性化を完了しました。
+2022/11/19 10:32:05.945 [INFO] ----------------------
+2022/11/19 10:32:05.945 [INFO] ■ タイトル
+2022/11/19 10:32:05.945 [INFO] タイトルステージを活性化します。
+2022/11/19 10:32:05.945 [INFO]     タイトルステージの活性化を完了しました。
+2022/11/19 10:32:12.258 [INFO] タイトルステージを非活性化します。
+2022/11/19 10:32:12.258 [INFO]     タイトルステージの非活性化を完了しました。
+2022/11/19 10:32:12.258 [INFO] ----------------------
+2022/11/19 10:32:12.258 [INFO] ■ コンフィグ
+2022/11/19 10:32:12.258 [INFO] コンフィグステージを活性化します。
+2022/11/19 10:32:12.259 [INFO]     コンフィグステージの活性化を完了しました。
+2022/11/19 10:32:12.287 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\Screen option panels.png)
+2022/11/19 10:32:12.313 [WARNING] DrawPrivateFont()の入力不正。最小値のbitmapを返します。
+2022/11/19 10:32:12.591 [WARNING] ファイルが存在しません。: Sounds\Config BGM.ogg
+2022/11/19 10:34:09.547 [INFO] コンフィグステージを非活性化します。
+2022/11/19 10:34:09.554 [INFO]     コンフィグステージの非活性化を完了しました。
+2022/11/19 10:34:09.554 [INFO] ----------------------
+2022/11/19 10:34:09.554 [INFO] ■ タイトル
+2022/11/19 10:34:09.554 [INFO] タイトルステージを活性化します。
+2022/11/19 10:34:09.554 [INFO]     タイトルステージの活性化を完了しました。
+2022/11/19 10:34:17.943 [INFO] タイトルステージを非活性化します。
+2022/11/19 10:34:17.943 [INFO]     タイトルステージの非活性化を完了しました。
+2022/11/19 10:34:17.943 [INFO] ----------------------
+2022/11/19 10:34:17.943 [INFO] ■ 選曲
+2022/11/19 10:34:17.943 [INFO] 選曲ステージを活性化します。
+2022/11/19 10:34:17.943 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\Screen option panels.png)
+2022/11/19 10:34:17.954 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_preimage panel.png)
+2022/11/19 10:34:17.954 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_sensor.png)
+2022/11/19 10:34:17.954 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_preimage default.png)
+2022/11/19 10:34:17.955 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_information_BG.png)
+2022/11/19 10:34:17.955 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_information.png)
+2022/11/19 10:34:17.955 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_information2.png)
+2022/11/19 10:34:17.981 [INFO]     選曲ステージの活性化を完了しました。
+2022/11/19 10:34:20.339 [WARNING] DrawPrivateFont()の入力不正。最小値のbitmapを返します。
+2022/11/19 10:34:20.604 [INFO] プレビューサウンドを生成しました。(D:\GitHub\experiment\OpenTaiko-0.5.4\Songs\04 Classical\天国と地獄\天国と地獄.ogg)
+2022/11/19 10:34:51.264 [INFO] 選曲ステージを非活性化します。
+2022/11/19 10:34:51.265 [INFO]     選曲ステージの非活性化を完了しました。
+2022/11/19 10:34:51.265 [INFO] ----------------------
+2022/11/19 10:34:51.265 [INFO] ■ 曲読み込み
+2022/11/19 10:34:51.265 [INFO] 曲読み込みステージを活性化します。
+2022/11/19 10:34:51.265 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\4_SongLoading\Background.png)
+2022/11/19 10:34:51.267 [INFO]     曲読み込みステージの活性化を完了しました。
+2022/11/19 10:34:51.286 [INFO] ----曲情報-----------------
+2022/11/19 10:34:51.286 [INFO] TITLE: 天国と地獄 序曲
+2022/11/19 10:34:51.286 [INFO] FILE: D:\GitHub\experiment\OpenTaiko-0.5.4\Songs\04 Classical\天国と地獄\天国と地獄.tja
+2022/11/19 10:34:51.287 [INFO] ---------------------------
+2022/11/19 10:34:51.287 [INFO] DTX読込所要時間:           00:00:00.0100015
+2022/11/19 10:34:52.578 [INFO] CSound.GroupLevel set: 90
+2022/11/19 10:34:52.578 [INFO] CSound.SetVolume: Gain:0. Automation Level: 0. Group Level: -0.915150046348572. Summed Gain: -0.915150046348572. Safe True Peak Gain: 0. Final Gain: -0.915150046348572.
+2022/11/19 10:34:52.578 [INFO] WAV読込所要時間(   1):     00:00:01.2905612
+2022/11/19 10:34:52.584 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\5_Background\0\Background.png)
+2022/11/19 10:34:52.586 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\Songs\04 Classical\天国と地獄\Dan_Plate.png)
+2022/11/19 10:34:52.587 [WARNING] System.IO.IOException: 別のプロセスで使用されているため、プロセスはファイル 'D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Sounds\Dan\Section_First.wav' にアクセスできません。
+   場所 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   場所 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   場所 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   場所 FDK.CSound.tRIFFchunkedVorbisならDirectShowでDecodeする(String strファイル名, Byte[]& byArrWAVファイルイメージ) 場所 D:\Desktop\bak\Taiko Map Converter\Releases\OpenTaiko-0.5.4\FDK19\コード\03.サウンド\CSound.cs:行 1710
+2022/11/19 10:34:52.587 [WARNING] Warning: Section_First.wav : 読み込みに失敗しました。
+2022/11/19 10:34:52.588 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\ScreenSelect level numbers.png)
+2022/11/19 10:34:52.655 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\Songs\04 Classical\天国と地獄\Dan_Plate.png)
+2022/11/19 10:34:52.656 [WARNING] System.IO.IOException: 別のプロセスで使用されているため、プロセスはファイル 'D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Sounds\Dan\Section_First.wav' にアクセスできません。
+   場所 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   場所 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   場所 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   場所 FDK.CSound.tRIFFchunkedVorbisならDirectShowでDecodeする(String strファイル名, Byte[]& byArrWAVファイルイメージ) 場所 D:\Desktop\bak\Taiko Map Converter\Releases\OpenTaiko-0.5.4\FDK19\コード\03.サウンド\CSound.cs:行 1710
+2022/11/19 10:34:52.656 [WARNING] Warning: Section_First.wav : 読み込みに失敗しました。
+2022/11/19 10:34:52.658 [WARNING] テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_Game\13_Genre\Songs.png)
+2022/11/19 10:34:52.659 [INFO] 総読込時間:                00:00:01.3823729
+2022/11/19 10:34:54.264 [INFO] 曲読み込みステージを非活性化します。
+2022/11/19 10:34:54.264 [INFO]     曲読み込みステージの非活性化を完了しました。
+2022/11/19 10:34:54.264 [INFO] ----------------------
+2022/11/19 10:34:54.264 [INFO] ■ 演奏（ドラム画面）
+2022/11/19 10:37:00.783 [WARNING] ファイルが存在しません。: D:\GitHub\experiment\OpenTaiko-0.5.4\Global\Characters\0\Sounds\Clear\Clear.wav
+2022/11/19 10:37:10.393 [INFO] CLagLogger.LogAndReturnMeanLag: Mean lag: 4.55656957626343. Median lag: 2. Mode(s) of lag: 2. Standard deviation of lag: 22.9604320526123.
+2022/11/19 10:37:10.393 [INFO] CLagLogger.LogAndReturnMeanLag: Hit chip counts, indexed by lag in milliseconds:
+-66,-57,-56,-52,-51,-49,-45,-44,-41,-38,-36,-35,-34,-33,-32,-31,-30,-29,-28,-27,-25,-24,-23,-22,-21,-20,-19,-18,-17,-16,-15,-14,-13,-12,-11,-10,-9,-8,-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,30,31,32,33,34,35,36,37,38,41,42,43,44,46,47,48,49,51,53,56,59,61,62,67,71,73,77,89,92
+1,1,1,1,3,1,3,3,1,3,1,1,4,1,1,2,1,5,6,3,1,3,3,3,3,6,2,6,14,11,15,9,8,8,1,9,6,8,5,11,5,5,9,13,15,14,19,21,10,8,9,9,11,7,9,4,9,11,7,4,7,12,13,14,11,12,8,2,2,2,3,4,2,7,3,7,6,6,8,2,6,2,5,2,2,1,1,1,1,2,1,2,2,2,2,1,1,2,1,1,3,1,1
+2022/11/19 10:37:10.393 [INFO] CStage演奏画面共通 リソースの開放
+2022/11/19 10:37:10.395 [INFO] LoudnessMetadataScanner.StartBackgroundScanning: BS1770GAIN is not available. A background scanning thread will not be started.
+2022/11/19 10:37:10.396 [INFO] ----------------------
+2022/11/19 10:37:10.396 [INFO] ■ 結果
+2022/11/19 10:37:10.396 [INFO] 結果ステージを活性化します。
+2022/11/19 10:37:10.418 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\Songs\04 Classical\天国と地獄\Dan_Plate.png)
+2022/11/19 10:37:10.420 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\Screen option panels.png)
+2022/11/19 10:37:10.420 [INFO]     結果ステージの活性化を完了しました。
+2022/11/19 10:37:13.024 [INFO] ----------------------
+2022/11/19 10:37:13.024 [INFO] ■ Return to song select menu
+2022/11/19 10:37:13.024 [INFO] 選曲ステージを活性化します。
+2022/11/19 10:37:13.024 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\Screen option panels.png)
+2022/11/19 10:37:13.036 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_preimage panel.png)
+2022/11/19 10:37:13.036 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_sensor.png)
+2022/11/19 10:37:13.037 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_preimage default.png)
+2022/11/19 10:37:13.037 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_information_BG.png)
+2022/11/19 10:37:13.037 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_information.png)
+2022/11/19 10:37:13.037 [WARNING]     テクスチャファイルが見つかりませんでした。(D:\GitHub\experiment\OpenTaiko-0.5.4\System\SimpleStyle\Graphics\5_information2.png)
+2022/11/19 10:37:13.066 [INFO]     選曲ステージの活性化を完了しました。
+2022/11/19 10:39:19.265 [INFO] ----------------------
+2022/11/19 10:39:19.265 [INFO] ■ アプリケーションの終了
+2022/11/19 10:39:19.265 [INFO] 曲検索actの終了処理を行います。
+2022/11/19 10:39:19.265 [INFO]     曲検索actの終了処理を完了しました。
+2022/11/19 10:39:19.266 [INFO] 現在のステージを終了します。
+2022/11/19 10:39:19.266 [INFO]     選曲ステージを非活性化します。
+2022/11/19 10:39:19.266 [INFO]         選曲ステージの非活性化を完了しました。
+2022/11/19 10:39:19.266 [INFO]     現在のステージの終了処理を完了しました。
+2022/11/19 10:39:19.267 [INFO] [Discord] Shutdowned.
+2022/11/19 10:39:19.267 [INFO] 曲リストの終了処理を行います。
+2022/11/19 10:39:19.267 [INFO]     曲リストの終了処理を完了しました。
+2022/11/19 10:39:19.313 [INFO] スキンの終了処理を行います。
+2022/11/19 10:39:19.320 [INFO]     スキンの終了処理を完了しました。
+2022/11/19 10:39:19.320 [INFO] DirectSound の終了処理を行います。
+2022/11/19 10:39:19.329 [INFO]     DirectSound の終了処理を完了しました。
+2022/11/19 10:39:19.330 [INFO] パッドの終了処理を行います。
+2022/11/19 10:39:19.330 [INFO]     パッドの終了処理を完了しました。
+2022/11/19 10:39:19.330 [INFO] DirectInput, MIDI入力の終了処理を行います。
+2022/11/19 10:39:19.331 [INFO]     DirectInput, MIDI入力の終了処理を完了しました。
+2022/11/19 10:39:19.331 [INFO] 文字コンソールの終了処理を行います。
+2022/11/19 10:39:19.331 [INFO]     文字コンソールの終了処理を完了しました。
+2022/11/19 10:39:19.331 [INFO] FPSカウンタの終了処理を行います。
+2022/11/19 10:39:19.331 [INFO]     FPSカウンタの終了処理を完了しました。
+2022/11/19 10:39:19.331 [INFO] タイマの終了処理を行います。
+2022/11/19 10:39:19.331 [INFO]     タイマの終了処理を完了しました。
+2022/11/19 10:39:19.331 [INFO] Config.ini を出力します。
+2022/11/19 10:39:19.332 [INFO]     保存しました。(D:\GitHub\experiment\OpenTaiko-0.5.4\Config.ini)
+2022/11/19 10:39:19.332 [INFO] Deinitializing loudness scanning, song gain control, and sound group level control...
+2022/11/19 10:39:19.332 [INFO] Deinitialized loudness scanning, song gain control, and sound group level control.
+2022/11/19 10:39:19.333 [INFO] アプリケーションの終了処理を完了しました。
+
+遊んでくれてありがとう！
