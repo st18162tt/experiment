@@ -1,330 +1,311 @@
 
 TJAPlayer3 5.2.10+Branch.master.Sha.cf71fb47313eccbee5eae48554cef050185acd48
 
-2022/11/28 11:49:37.475 [INFO] ----------------------
-2022/11/28 11:49:37.475 [INFO] ■ アプリケーションの初期化
-2022/11/28 11:49:37.475 [INFO] OS Version: Microsoft Windows NT 6.2.9200.0
-2022/11/28 11:49:37.475 [INFO] ProcessorCount: 4
-2022/11/28 11:49:37.475 [INFO] CLR Version: 4.0.30319.42000
-2022/11/28 11:49:37.615 [INFO] スキンの初期化を行います。
-2022/11/28 11:49:37.618 [INFO]     SkinPath検出: C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\
-2022/11/28 11:49:37.618 [INFO]     SkinPath入力: C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\
-2022/11/28 11:49:37.618 [INFO]     SkinPath設定: C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\
-2022/11/28 11:49:37.634 [WARNING]     System.NullReferenceException: オブジェクト参照がオブジェクト インスタンスに設定されていません。
+2022/11/28 11:54:16.064 [INFO] ----------------------
+2022/11/28 11:54:16.064 [INFO] ■ アプリケーションの初期化
+2022/11/28 11:54:16.064 [INFO] OS Version: Microsoft Windows NT 6.2.9200.0
+2022/11/28 11:54:16.064 [INFO] ProcessorCount: 4
+2022/11/28 11:54:16.064 [INFO] CLR Version: 4.0.30319.42000
+2022/11/28 11:54:16.411 [INFO] スキンの初期化を行います。
+2022/11/28 11:54:16.427 [INFO]     SkinPath検出: C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\
+2022/11/28 11:54:16.427 [INFO]     SkinPath入力: C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\
+2022/11/28 11:54:16.427 [INFO]     SkinPath設定: C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\
+2022/11/28 11:54:16.442 [WARNING]     System.NullReferenceException: オブジェクト参照がオブジェクト インスタンスに設定されていません。
    場所 TJAPlayer3.CSkin.Cシステムサウンド.t読み込み() 場所 C:\projects\tjaplayer3\TJAPlayer3\Common\CSkin.cs:行 211
    場所 TJAPlayer3.CSkin.ReloadSkin() 場所 C:\projects\tjaplayer3\TJAPlayer3\Common\CSkin.cs:行 579
-2022/11/28 11:49:37.634 [WARNING]     システムサウンドの読み込みに失敗しました。(Sounds\Move.ogg)
-2022/11/28 11:49:37.634 [WARNING]     System.NullReferenceException: オブジェクト参照がオブジェクト インスタンスに設定されていません。
+2022/11/28 11:54:16.442 [WARNING]     システムサウンドの読み込みに失敗しました。(Sounds\Move.ogg)
+2022/11/28 11:54:16.442 [WARNING]     System.NullReferenceException: オブジェクト参照がオブジェクト インスタンスに設定されていません。
    場所 TJAPlayer3.CSkin.Cシステムサウンド.t読み込み() 場所 C:\projects\tjaplayer3\TJAPlayer3\Common\CSkin.cs:行 211
    場所 TJAPlayer3.CSkin.ReloadSkin() 場所 C:\projects\tjaplayer3\TJAPlayer3\Common\CSkin.cs:行 579
-2022/11/28 11:49:37.634 [WARNING]     システムサウンドの読み込みに失敗しました。(Sounds\Decide.ogg)
-2022/11/28 11:49:37.634 [WARNING]     System.NullReferenceException: オブジェクト参照がオブジェクト インスタンスに設定されていません。
+2022/11/28 11:54:16.442 [WARNING]     システムサウンドの読み込みに失敗しました。(Sounds\Decide.ogg)
+2022/11/28 11:54:16.442 [WARNING]     System.NullReferenceException: オブジェクト参照がオブジェクト インスタンスに設定されていません。
    場所 TJAPlayer3.CSkin.Cシステムサウンド.t読み込み() 場所 C:\projects\tjaplayer3\TJAPlayer3\Common\CSkin.cs:行 211
    場所 TJAPlayer3.CSkin.ReloadSkin() 場所 C:\projects\tjaplayer3\TJAPlayer3\Common\CSkin.cs:行 579
-2022/11/28 11:49:37.634 [WARNING]     システムサウンドの読み込みに失敗しました。(Sounds\Change.ogg)
-2022/11/28 11:49:37.634 [WARNING]     System.NullReferenceException: オブジェクト参照がオブジェクト インスタンスに設定されていません。
+2022/11/28 11:54:16.442 [WARNING]     システムサウンドの読み込みに失敗しました。(Sounds\Change.ogg)
+2022/11/28 11:54:16.442 [WARNING]     System.NullReferenceException: オブジェクト参照がオブジェクト インスタンスに設定されていません。
    場所 TJAPlayer3.CSkin.Cシステムサウンド.t読み込み() 場所 C:\projects\tjaplayer3\TJAPlayer3\Common\CSkin.cs:行 211
    場所 TJAPlayer3.CSkin.ReloadSkin() 場所 C:\projects\tjaplayer3\TJAPlayer3\Common\CSkin.cs:行 579
-2022/11/28 11:49:37.634 [WARNING]     システムサウンドの読み込みに失敗しました。(Sounds\Cancel.ogg)
-2022/11/28 11:49:37.634 [WARNING]     ファイルが存在しません。: Sounds\Audience.ogg
-2022/11/28 11:49:37.634 [INFO]     システムサウンドを読み込みました。(Sounds\Audience.ogg)
-2022/11/28 11:49:37.634 [WARNING]     ファイルが存在しません。: Sounds\Game start.ogg
-2022/11/28 11:49:37.634 [INFO]     システムサウンドを読み込みました。(Sounds\Game start.ogg)
-2022/11/28 11:49:37.634 [WARNING]     ファイルが存在しません。: Sounds\Full combo.ogg
-2022/11/28 11:49:37.634 [INFO]     システムサウンドを読み込みました。(Sounds\Full combo.ogg)
-2022/11/28 11:49:37.634 [WARNING]     System.NullReferenceException: オブジェクト参照がオブジェクト インスタンスに設定されていません。
+2022/11/28 11:54:16.442 [WARNING]     システムサウンドの読み込みに失敗しました。(Sounds\Cancel.ogg)
+2022/11/28 11:54:16.442 [WARNING]     ファイルが存在しません。: Sounds\Audience.ogg
+2022/11/28 11:54:16.442 [INFO]     システムサウンドを読み込みました。(Sounds\Audience.ogg)
+2022/11/28 11:54:16.442 [WARNING]     ファイルが存在しません。: Sounds\Game start.ogg
+2022/11/28 11:54:16.442 [INFO]     システムサウンドを読み込みました。(Sounds\Game start.ogg)
+2022/11/28 11:54:16.442 [WARNING]     ファイルが存在しません。: Sounds\Full combo.ogg
+2022/11/28 11:54:16.442 [INFO]     システムサウンドを読み込みました。(Sounds\Full combo.ogg)
+2022/11/28 11:54:16.442 [WARNING]     System.NullReferenceException: オブジェクト参照がオブジェクト インスタンスに設定されていません。
    場所 TJAPlayer3.CSkin.Cシステムサウンド.t読み込み() 場所 C:\projects\tjaplayer3\TJAPlayer3\Common\CSkin.cs:行 211
    場所 TJAPlayer3.CSkin.ReloadSkin() 場所 C:\projects\tjaplayer3\TJAPlayer3\Common\CSkin.cs:行 579
-2022/11/28 11:49:37.634 [WARNING]     システムサウンドの読み込みに失敗しました。(Sounds\balloon.ogg)
-2022/11/28 11:49:37.634 [WARNING]     System.NullReferenceException: オブジェクト参照がオブジェクト インスタンスに設定されていません。
+2022/11/28 11:54:16.442 [WARNING]     システムサウンドの読み込みに失敗しました。(Sounds\balloon.ogg)
+2022/11/28 11:54:16.442 [WARNING]     System.NullReferenceException: オブジェクト参照がオブジェクト インスタンスに設定されていません。
    場所 TJAPlayer3.CSkin.Cシステムサウンド.t読み込み() 場所 C:\projects\tjaplayer3\TJAPlayer3\Common\CSkin.cs:行 211
    場所 TJAPlayer3.CSkin.ReloadSkin() 場所 C:\projects\tjaplayer3\TJAPlayer3\Common\CSkin.cs:行 579
-2022/11/28 11:49:37.634 [WARNING]     システムサウンドの読み込みに失敗しました。(Sounds\SongDecide.ogg)
-2022/11/28 11:49:37.634 [WARNING]     ファイルが存在しません。: Sounds\ResultIn.ogg
-2022/11/28 11:49:37.634 [INFO]     システムサウンドを読み込みました。(Sounds\ResultIn.ogg)
-2022/11/28 11:49:37.665 [INFO]     スキンの初期化を完了しました。
-2022/11/28 11:49:37.665 [INFO] タイマの初期化を行います。
-2022/11/28 11:49:37.676 [INFO]     タイマの初期化を完了しました。
-2022/11/28 11:49:37.676 [INFO] FPSカウンタの初期化を行います。
-2022/11/28 11:49:37.677 [INFO]     FPSカウンタを生成しました。
-2022/11/28 11:49:37.677 [INFO] 文字コンソールの初期化を行います。
-2022/11/28 11:49:37.677 [INFO]     文字コンソールを生成しました。
-2022/11/28 11:49:37.690 [INFO]     文字コンソールを活性化しました。
-2022/11/28 11:49:37.690 [INFO]     文字コンソールの初期化を完了しました。
-2022/11/28 11:49:37.690 [INFO] DirectInput, MIDI入力の初期化を行います。
-2022/11/28 11:49:37.717 [INFO]     キーボード を生成しました。
-2022/11/28 11:49:37.718 [INFO]     マウス を生成しました。
-2022/11/28 11:49:37.771 [INFO]     MIDI入力デバイス数: 0
-2022/11/28 11:49:37.772 [INFO]     DirectInput の初期化を完了しました。
-2022/11/28 11:49:37.772 [INFO] パッドの初期化を行います。
-2022/11/28 11:49:37.772 [INFO]     パッドの初期化を完了しました。
-2022/11/28 11:49:37.772 [INFO] サウンドデバイスの初期化を行います。
-2022/11/28 11:49:37.779 [INFO]     BASS (WASAPI) の初期化を開始します。
-2022/11/28 11:49:37.996 [INFO]     使用デバイス: #0 : スピーカー / ヘッドホン (Realtek(R) Audio), flags=BASS_DEVICE_ENABLED, BASS_DEVICE_DEFAULT, BASS_DEVICE_INIT
-2022/11/28 11:49:37.997 [INFO]     BASS を初期化しました。(WASAPI排他モード, 48000Hz, 2ch, フォーマット:BASS_WASAPI_FORMAT_24BIT, バッファ20480bytes [71ms(希望50ms)], 更新間隔3ms)
-2022/11/28 11:49:37.997 [INFO]     デバイスの最小更新時間=3ms, 既定の更新時間=10ms
-2022/11/28 11:49:38.004 [INFO]     BASS_CONFIG_UpdatePeriod=0
-2022/11/28 11:49:38.004 [INFO]     BASS_CONFIG_UpdateThreads=0
-2022/11/28 11:49:38.005 [INFO]     Initializing loudness scanning, song gain control, and sound group level control...
-2022/11/28 11:49:38.045 [INFO]         LoudnessMetadataScanner.StartBackgroundScanning: BS1770GAIN is available. Starting background scanning thread...
-2022/11/28 11:49:38.045 [INFO]         LoudnessMetadataScanner.StartBackgroundScanning: Background scanning thread started.
-2022/11/28 11:49:38.051 [INFO]     Initialized loudness scanning, song gain control, and sound group level control.
-2022/11/28 11:49:38.053 [INFO]     サウンドデバイスの初期化を完了しました。
-2022/11/28 11:49:38.053 [INFO] 曲リストの初期化を行います。
-2022/11/28 11:49:38.055 [INFO]     曲リストの初期化を完了しました。
-2022/11/28 11:49:38.208 [INFO] アプリケーションの初期化を完了しました。
-2022/11/28 11:49:38.208 [INFO] ----------------------
-2022/11/28 11:49:38.208 [INFO] ■ 起動
-2022/11/28 11:49:38.208 [INFO] 起動ステージを活性化します。
-2022/11/28 11:49:38.239 [INFO]     起動ステージの活性化を完了しました。
-2022/11/28 11:49:38.256 [INFO] 0) システムサウンドを構築します。
-2022/11/28 11:49:38.257 [WARNING]     ファイルが存在しません。: Sounds\Setup BGM.ogg
-2022/11/28 11:49:38.268 [INFO]     システムサウンドを読み込みました。(Sounds\Move.ogg)
-2022/11/28 11:49:38.271 [INFO]     システムサウンドを読み込みました。(Sounds\Decide.ogg)
-2022/11/28 11:49:38.275 [INFO]     システムサウンドを読み込みました。(Sounds\Change.ogg)
-2022/11/28 11:49:38.278 [INFO]     システムサウンドを読み込みました。(Sounds\Cancel.ogg)
-2022/11/28 11:49:38.279 [WARNING]     ファイルが存在しません。: Sounds\Audience.ogg
-2022/11/28 11:49:38.279 [INFO]     システムサウンドを読み込みました。(Sounds\Audience.ogg)
-2022/11/28 11:49:38.279 [WARNING]     ファイルが存在しません。: Sounds\Game start.ogg
-2022/11/28 11:49:38.279 [INFO]     システムサウンドを読み込みました。(Sounds\Game start.ogg)
-2022/11/28 11:49:38.279 [WARNING]     ファイルが存在しません。: Sounds\Full combo.ogg
-2022/11/28 11:49:38.279 [INFO]     システムサウンドを読み込みました。(Sounds\Full combo.ogg)
-2022/11/28 11:49:38.282 [INFO]     システムサウンドを読み込みました。(Sounds\balloon.ogg)
-2022/11/28 11:49:38.284 [INFO]     システムサウンドを読み込みました。(Sounds\SongDecide.ogg)
-2022/11/28 11:49:38.284 [WARNING]     ファイルが存在しません。: Sounds\ResultIn.ogg
-2022/11/28 11:49:38.284 [INFO]     システムサウンドを読み込みました。(Sounds\ResultIn.ogg)
-2022/11/28 11:49:38.284 [INFO] 1) songlist.dbを読み込みます。
-2022/11/28 11:49:38.294 [INFO]     songlist.db の読み込みを完了しました。[7スコア]
-2022/11/28 11:49:38.294 [INFO] 2) songs.db を読み込みます。
-2022/11/28 11:49:38.297 [INFO]     songs.db の読み込みを完了しました。[11スコア]
-2022/11/28 11:49:38.297 [INFO] 起動所要時間: 00:00:00.0408774
-2022/11/28 11:49:38.323 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\Overlay.png)
-2022/11/28 11:49:38.326 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\1P_NamePlate.png)
-2022/11/28 11:49:38.327 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\2P_NamePlate.png)
-2022/11/28 11:49:38.471 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\3_SongSelect\Frame_BackBox.png)
-2022/11/28 11:49:38.471 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\3_SongSelect\Frame_Random.png)
-2022/11/28 11:49:38.495 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\3_SongSelect\Frame_Box_0.png)
-2022/11/28 11:49:38.495 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\3_SongSelect\Frame_Box_1.png)
-2022/11/28 11:49:38.495 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\3_SongSelect\Frame_Box_2.png)
-2022/11/28 11:49:38.495 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\3_SongSelect\Frame_Box_3.png)
-2022/11/28 11:49:38.495 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\3_SongSelect\Frame_Box_4.png)
-2022/11/28 11:49:38.495 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\3_SongSelect\Frame_Box_5.png)
-2022/11/28 11:49:38.495 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\3_SongSelect\Frame_Box_6.png)
-2022/11/28 11:49:38.496 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\3_SongSelect\Frame_Box_7.png)
-2022/11/28 11:49:38.496 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\3_SongSelect\Frame_Box_8.png)
-2022/11/28 11:49:38.819 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\8_Footer\0.png)
-2022/11/28 11:49:38.838 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\5_Background\0\1P_Up.png)
-2022/11/28 11:49:38.838 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\5_Background\0\2P_Up.png)
-2022/11/28 11:49:38.838 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\5_Background\0\1P_Up_Clear.png)
-2022/11/28 11:49:38.839 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\5_Background\0\2P_Up_Clear.png)
-2022/11/28 11:49:38.839 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\5_Background\0\Down.png)
-2022/11/28 11:49:38.839 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\5_Background\0\Down_Clear.png)
-2022/11/28 11:49:38.839 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\5_Background\0\Down_Scroll.png)
-2022/11/28 11:49:38.849 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\6_Taiko\1P_PlayerNumber.png)
-2022/11/28 11:49:38.849 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\6_Taiko\2P_PlayerNumber.png)
-2022/11/28 11:49:38.849 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\6_Taiko\1P_NamePlate.png)
-2022/11/28 11:49:38.850 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\6_Taiko\2P_NamePlate.png)
-2022/11/28 11:49:38.854 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\4_CourseSymbol\Easy.png)
-2022/11/28 11:49:38.855 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\4_CourseSymbol\Normal.png)
-2022/11/28 11:49:38.855 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\4_CourseSymbol\Hard.png)
-2022/11/28 11:49:38.855 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\4_CourseSymbol\Oni.png)
-2022/11/28 11:49:38.855 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\4_CourseSymbol\Edit.png)
-2022/11/28 11:49:38.855 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\4_CourseSymbol\Tower.png)
-2022/11/28 11:49:38.855 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\4_CourseSymbol\Dan.png)
-2022/11/28 11:49:38.856 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\4_CourseSymbol\Shin.png)
-2022/11/28 11:49:39.241 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\0.png)
-2022/11/28 11:49:39.241 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\1.png)
-2022/11/28 11:49:39.241 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\2.png)
-2022/11/28 11:49:39.242 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\3.png)
-2022/11/28 11:49:39.242 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\4.png)
-2022/11/28 11:49:39.242 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\5.png)
-2022/11/28 11:49:39.242 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\6.png)
-2022/11/28 11:49:39.242 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\7.png)
-2022/11/28 11:49:39.242 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\8.png)
-2022/11/28 11:49:39.242 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\9.png)
-2022/11/28 11:49:39.243 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\10.png)
-2022/11/28 11:49:39.243 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\11.png)
-2022/11/28 11:49:39.243 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\12.png)
-2022/11/28 11:49:39.243 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\13.png)
-2022/11/28 11:49:39.243 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\14.png)
-2022/11/28 11:49:39.243 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\0.png)
-2022/11/28 11:49:39.243 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\1.png)
-2022/11/28 11:49:39.243 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\2.png)
-2022/11/28 11:49:39.244 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\3.png)
-2022/11/28 11:49:39.244 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\4.png)
-2022/11/28 11:49:39.244 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\5.png)
-2022/11/28 11:49:39.244 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\6.png)
-2022/11/28 11:49:39.244 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\7.png)
-2022/11/28 11:49:39.244 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\8.png)
-2022/11/28 11:49:39.244 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\9.png)
-2022/11/28 11:49:39.244 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\10.png)
-2022/11/28 11:49:39.245 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\11.png)
-2022/11/28 11:49:39.245 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\12.png)
-2022/11/28 11:49:39.245 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\13.png)
-2022/11/28 11:49:39.245 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\14.png)
-2022/11/28 11:49:39.245 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\0.png)
-2022/11/28 11:49:39.245 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\1.png)
-2022/11/28 11:49:39.245 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\2.png)
-2022/11/28 11:49:39.246 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\3.png)
-2022/11/28 11:49:39.246 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\4.png)
-2022/11/28 11:49:39.246 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\5.png)
-2022/11/28 11:49:39.246 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\6.png)
-2022/11/28 11:49:39.246 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\7.png)
-2022/11/28 11:49:39.246 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\8.png)
-2022/11/28 11:49:39.246 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\9.png)
-2022/11/28 11:49:39.246 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\10.png)
-2022/11/28 11:49:39.247 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\11.png)
-2022/11/28 11:49:39.247 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\12.png)
-2022/11/28 11:49:39.247 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\13.png)
-2022/11/28 11:49:39.247 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\14.png)
-2022/11/28 11:49:39.247 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\0.png)
-2022/11/28 11:49:39.247 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\1.png)
-2022/11/28 11:49:39.247 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\2.png)
-2022/11/28 11:49:39.247 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\3.png)
-2022/11/28 11:49:39.248 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\4.png)
-2022/11/28 11:49:39.248 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\5.png)
-2022/11/28 11:49:39.248 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\6.png)
-2022/11/28 11:49:39.248 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\7.png)
-2022/11/28 11:49:39.248 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\8.png)
-2022/11/28 11:49:39.248 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\9.png)
-2022/11/28 11:49:39.248 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\10.png)
-2022/11/28 11:49:39.249 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\11.png)
-2022/11/28 11:49:39.249 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\12.png)
-2022/11/28 11:49:39.249 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\13.png)
-2022/11/28 11:49:39.249 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\14.png)
-2022/11/28 11:49:39.276 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\9_End\Clear_L_0.png)
-2022/11/28 11:49:39.276 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\9_End\Clear_L_1.png)
-2022/11/28 11:49:39.276 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\9_End\Clear_L_2.png)
-2022/11/28 11:49:39.276 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\9_End\Clear_L_3.png)
-2022/11/28 11:49:39.276 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\9_End\Clear_L_4.png)
-2022/11/28 11:49:39.276 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\9_End\Clear_R_0.png)
-2022/11/28 11:49:39.277 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\9_End\Clear_R_1.png)
-2022/11/28 11:49:39.277 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\9_End\Clear_R_2.png)
-2022/11/28 11:49:39.277 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\9_End\Clear_R_3.png)
-2022/11/28 11:49:39.277 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\9_End\Clear_R_4.png)
-2022/11/28 11:49:39.277 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\9_End\Clear_Text.png)
-2022/11/28 11:49:39.277 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\9_End\Clear_Text_Effect.png)
-2022/11/28 11:49:39.278 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\15_Failed\Game.png)
-2022/11/28 11:49:39.278 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\15_Failed\Stage.png)
-2022/11/28 11:49:39.399 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\18_PuchiChara\0.png)
-2022/11/28 11:49:39.533 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\7_Exit\Background.png)
-2022/11/28 11:49:39.533 [INFO] 起動ステージを非活性化します。
-2022/11/28 11:49:39.535 [INFO]     起動ステージの非活性化を完了しました。
-2022/11/28 11:49:39.535 [INFO] ----------------------
-2022/11/28 11:49:39.536 [INFO] ■ タイトル
-2022/11/28 11:49:39.536 [INFO] タイトルステージを活性化します。
-2022/11/28 11:49:39.536 [INFO]     タイトルステージの活性化を完了しました。
-2022/11/28 11:49:39.584 [INFO] ★曲データ検索スレッドを起動しました。
-2022/11/28 11:49:39.591 [INFO] enum2) 曲データを検索します。
-2022/11/28 11:49:39.591 [INFO]     検索パス: C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\.\
-2022/11/28 11:49:39.709 [INFO]     曲データの検索を完了しました。[2曲2スコア]
-2022/11/28 11:49:39.709 [INFO] enum3) songs.db の情報を曲リストへ反映します。
-2022/11/28 11:49:39.711 [INFO]     曲リストへの反映を完了しました。[1/2スコア]
-2022/11/28 11:49:39.711 [INFO] 2, 1
-2022/11/28 11:49:39.711 [INFO] enum4) songs.db になかった曲データ[1スコア]の情報をファイルから読み込んで反映します。
-2022/11/28 11:49:39.747 [ERROR]     演奏記録ファイルの読み込みに失敗しました。[C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\Classical\天国と地獄\天国と地獄.tja.score.ini]
-2022/11/28 11:49:39.749 [ERROR]     System.IndexOutOfRangeException: インデックスが配列の境界外です。
+2022/11/28 11:54:16.442 [WARNING]     システムサウンドの読み込みに失敗しました。(Sounds\SongDecide.ogg)
+2022/11/28 11:54:16.442 [WARNING]     ファイルが存在しません。: Sounds\ResultIn.ogg
+2022/11/28 11:54:16.442 [INFO]     システムサウンドを読み込みました。(Sounds\ResultIn.ogg)
+2022/11/28 11:54:16.474 [INFO]     スキンの初期化を完了しました。
+2022/11/28 11:54:16.474 [INFO] タイマの初期化を行います。
+2022/11/28 11:54:16.491 [INFO]     タイマの初期化を完了しました。
+2022/11/28 11:54:16.492 [INFO] FPSカウンタの初期化を行います。
+2022/11/28 11:54:16.492 [INFO]     FPSカウンタを生成しました。
+2022/11/28 11:54:16.493 [INFO] 文字コンソールの初期化を行います。
+2022/11/28 11:54:16.493 [INFO]     文字コンソールを生成しました。
+2022/11/28 11:54:16.506 [INFO]     文字コンソールを活性化しました。
+2022/11/28 11:54:16.506 [INFO]     文字コンソールの初期化を完了しました。
+2022/11/28 11:54:16.506 [INFO] DirectInput, MIDI入力の初期化を行います。
+2022/11/28 11:54:16.530 [INFO]     キーボード を生成しました。
+2022/11/28 11:54:16.534 [INFO]     マウス を生成しました。
+2022/11/28 11:54:16.598 [INFO]     MIDI入力デバイス数: 0
+2022/11/28 11:54:16.598 [INFO]     DirectInput の初期化を完了しました。
+2022/11/28 11:54:16.598 [INFO] パッドの初期化を行います。
+2022/11/28 11:54:16.598 [INFO]     パッドの初期化を完了しました。
+2022/11/28 11:54:16.598 [INFO] サウンドデバイスの初期化を行います。
+2022/11/28 11:54:16.604 [INFO]     BASS (WASAPI) の初期化を開始します。
+2022/11/28 11:54:16.826 [INFO]     使用デバイス: #0 : スピーカー / ヘッドホン (Realtek(R) Audio), flags=BASS_DEVICE_ENABLED, BASS_DEVICE_DEFAULT, BASS_DEVICE_INIT
+2022/11/28 11:54:16.827 [INFO]     BASS を初期化しました。(WASAPI排他モード, 48000Hz, 2ch, フォーマット:BASS_WASAPI_FORMAT_24BIT, バッファ20480bytes [71ms(希望50ms)], 更新間隔3ms)
+2022/11/28 11:54:16.827 [INFO]     デバイスの最小更新時間=3ms, 既定の更新時間=10ms
+2022/11/28 11:54:16.831 [INFO]     BASS_CONFIG_UpdatePeriod=0
+2022/11/28 11:54:16.831 [INFO]     BASS_CONFIG_UpdateThreads=0
+2022/11/28 11:54:16.831 [INFO]     Initializing loudness scanning, song gain control, and sound group level control...
+2022/11/28 11:54:16.884 [INFO]         LoudnessMetadataScanner.StartBackgroundScanning: BS1770GAIN is available. Starting background scanning thread...
+2022/11/28 11:54:16.884 [INFO]         LoudnessMetadataScanner.StartBackgroundScanning: Background scanning thread started.
+2022/11/28 11:54:16.891 [INFO]     Initialized loudness scanning, song gain control, and sound group level control.
+2022/11/28 11:54:16.894 [INFO]     サウンドデバイスの初期化を完了しました。
+2022/11/28 11:54:16.894 [INFO] 曲リストの初期化を行います。
+2022/11/28 11:54:16.894 [INFO]     曲リストの初期化を完了しました。
+2022/11/28 11:54:17.049 [INFO] アプリケーションの初期化を完了しました。
+2022/11/28 11:54:17.049 [INFO] ----------------------
+2022/11/28 11:54:17.049 [INFO] ■ 起動
+2022/11/28 11:54:17.050 [INFO] 起動ステージを活性化します。
+2022/11/28 11:54:17.080 [INFO]     起動ステージの活性化を完了しました。
+2022/11/28 11:54:17.095 [INFO] 0) システムサウンドを構築します。
+2022/11/28 11:54:17.098 [WARNING]     ファイルが存在しません。: Sounds\Setup BGM.ogg
+2022/11/28 11:54:17.108 [INFO]     システムサウンドを読み込みました。(Sounds\Move.ogg)
+2022/11/28 11:54:17.112 [INFO]     システムサウンドを読み込みました。(Sounds\Decide.ogg)
+2022/11/28 11:54:17.115 [INFO]     システムサウンドを読み込みました。(Sounds\Change.ogg)
+2022/11/28 11:54:17.118 [INFO]     システムサウンドを読み込みました。(Sounds\Cancel.ogg)
+2022/11/28 11:54:17.118 [WARNING]     ファイルが存在しません。: Sounds\Audience.ogg
+2022/11/28 11:54:17.118 [INFO]     システムサウンドを読み込みました。(Sounds\Audience.ogg)
+2022/11/28 11:54:17.118 [WARNING]     ファイルが存在しません。: Sounds\Game start.ogg
+2022/11/28 11:54:17.118 [INFO]     システムサウンドを読み込みました。(Sounds\Game start.ogg)
+2022/11/28 11:54:17.119 [WARNING]     ファイルが存在しません。: Sounds\Full combo.ogg
+2022/11/28 11:54:17.119 [INFO]     システムサウンドを読み込みました。(Sounds\Full combo.ogg)
+2022/11/28 11:54:17.123 [INFO]     システムサウンドを読み込みました。(Sounds\balloon.ogg)
+2022/11/28 11:54:17.126 [INFO]     システムサウンドを読み込みました。(Sounds\SongDecide.ogg)
+2022/11/28 11:54:17.127 [WARNING]     ファイルが存在しません。: Sounds\ResultIn.ogg
+2022/11/28 11:54:17.127 [INFO]     システムサウンドを読み込みました。(Sounds\ResultIn.ogg)
+2022/11/28 11:54:17.127 [INFO] 1) songlist.dbを読み込みます。
+2022/11/28 11:54:17.133 [INFO]     songlist.db の読み込みを完了しました。[2スコア]
+2022/11/28 11:54:17.133 [INFO] 2) songs.db を読み込みます。
+2022/11/28 11:54:17.137 [INFO]     songs.db の読み込みを完了しました。[5スコア]
+2022/11/28 11:54:17.137 [INFO] 起動所要時間: 00:00:00.0428984
+2022/11/28 11:54:17.151 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\Overlay.png)
+2022/11/28 11:54:17.156 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\1P_NamePlate.png)
+2022/11/28 11:54:17.157 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\2P_NamePlate.png)
+2022/11/28 11:54:17.296 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\3_SongSelect\Frame_BackBox.png)
+2022/11/28 11:54:17.296 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\3_SongSelect\Frame_Random.png)
+2022/11/28 11:54:17.317 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\3_SongSelect\Frame_Box_0.png)
+2022/11/28 11:54:17.317 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\3_SongSelect\Frame_Box_1.png)
+2022/11/28 11:54:17.317 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\3_SongSelect\Frame_Box_2.png)
+2022/11/28 11:54:17.317 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\3_SongSelect\Frame_Box_3.png)
+2022/11/28 11:54:17.317 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\3_SongSelect\Frame_Box_4.png)
+2022/11/28 11:54:17.317 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\3_SongSelect\Frame_Box_5.png)
+2022/11/28 11:54:17.317 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\3_SongSelect\Frame_Box_6.png)
+2022/11/28 11:54:17.318 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\3_SongSelect\Frame_Box_7.png)
+2022/11/28 11:54:17.318 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\3_SongSelect\Frame_Box_8.png)
+2022/11/28 11:54:17.653 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\8_Footer\0.png)
+2022/11/28 11:54:17.671 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\5_Background\0\1P_Up.png)
+2022/11/28 11:54:17.671 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\5_Background\0\2P_Up.png)
+2022/11/28 11:54:17.671 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\5_Background\0\1P_Up_Clear.png)
+2022/11/28 11:54:17.671 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\5_Background\0\2P_Up_Clear.png)
+2022/11/28 11:54:17.671 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\5_Background\0\Down.png)
+2022/11/28 11:54:17.671 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\5_Background\0\Down_Clear.png)
+2022/11/28 11:54:17.672 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\5_Background\0\Down_Scroll.png)
+2022/11/28 11:54:17.682 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\6_Taiko\1P_PlayerNumber.png)
+2022/11/28 11:54:17.682 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\6_Taiko\2P_PlayerNumber.png)
+2022/11/28 11:54:17.682 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\6_Taiko\1P_NamePlate.png)
+2022/11/28 11:54:17.682 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\6_Taiko\2P_NamePlate.png)
+2022/11/28 11:54:17.687 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\4_CourseSymbol\Easy.png)
+2022/11/28 11:54:17.687 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\4_CourseSymbol\Normal.png)
+2022/11/28 11:54:17.687 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\4_CourseSymbol\Hard.png)
+2022/11/28 11:54:17.687 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\4_CourseSymbol\Oni.png)
+2022/11/28 11:54:17.687 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\4_CourseSymbol\Edit.png)
+2022/11/28 11:54:17.687 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\4_CourseSymbol\Tower.png)
+2022/11/28 11:54:17.688 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\4_CourseSymbol\Dan.png)
+2022/11/28 11:54:17.688 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\4_CourseSymbol\Shin.png)
+2022/11/28 11:54:18.074 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\0.png)
+2022/11/28 11:54:18.074 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\1.png)
+2022/11/28 11:54:18.074 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\2.png)
+2022/11/28 11:54:18.074 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\3.png)
+2022/11/28 11:54:18.074 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\4.png)
+2022/11/28 11:54:18.075 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\5.png)
+2022/11/28 11:54:18.075 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\6.png)
+2022/11/28 11:54:18.075 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\7.png)
+2022/11/28 11:54:18.075 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\8.png)
+2022/11/28 11:54:18.075 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\9.png)
+2022/11/28 11:54:18.075 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\10.png)
+2022/11/28 11:54:18.075 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\11.png)
+2022/11/28 11:54:18.076 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\12.png)
+2022/11/28 11:54:18.076 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\13.png)
+2022/11/28 11:54:18.076 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good\14.png)
+2022/11/28 11:54:18.076 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\0.png)
+2022/11/28 11:54:18.076 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\1.png)
+2022/11/28 11:54:18.076 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\2.png)
+2022/11/28 11:54:18.076 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\3.png)
+2022/11/28 11:54:18.076 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\4.png)
+2022/11/28 11:54:18.077 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\5.png)
+2022/11/28 11:54:18.077 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\6.png)
+2022/11/28 11:54:18.077 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\7.png)
+2022/11/28 11:54:18.077 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\8.png)
+2022/11/28 11:54:18.077 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\9.png)
+2022/11/28 11:54:18.077 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\10.png)
+2022/11/28 11:54:18.077 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\11.png)
+2022/11/28 11:54:18.078 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\12.png)
+2022/11/28 11:54:18.078 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\13.png)
+2022/11/28 11:54:18.078 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Good_Big\14.png)
+2022/11/28 11:54:18.078 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\0.png)
+2022/11/28 11:54:18.078 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\1.png)
+2022/11/28 11:54:18.078 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\2.png)
+2022/11/28 11:54:18.078 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\3.png)
+2022/11/28 11:54:18.078 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\4.png)
+2022/11/28 11:54:18.079 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\5.png)
+2022/11/28 11:54:18.079 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\6.png)
+2022/11/28 11:54:18.079 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\7.png)
+2022/11/28 11:54:18.079 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\8.png)
+2022/11/28 11:54:18.079 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\9.png)
+2022/11/28 11:54:18.079 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\10.png)
+2022/11/28 11:54:18.079 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\11.png)
+2022/11/28 11:54:18.079 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\12.png)
+2022/11/28 11:54:18.080 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\13.png)
+2022/11/28 11:54:18.080 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great\14.png)
+2022/11/28 11:54:18.080 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\0.png)
+2022/11/28 11:54:18.080 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\1.png)
+2022/11/28 11:54:18.080 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\2.png)
+2022/11/28 11:54:18.080 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\3.png)
+2022/11/28 11:54:18.080 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\4.png)
+2022/11/28 11:54:18.081 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\5.png)
+2022/11/28 11:54:18.081 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\6.png)
+2022/11/28 11:54:18.081 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\7.png)
+2022/11/28 11:54:18.081 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\8.png)
+2022/11/28 11:54:18.081 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\9.png)
+2022/11/28 11:54:18.081 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\10.png)
+2022/11/28 11:54:18.081 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\11.png)
+2022/11/28 11:54:18.081 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\12.png)
+2022/11/28 11:54:18.082 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\13.png)
+2022/11/28 11:54:18.082 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\10_Effects\Hit\Great_Big\14.png)
+2022/11/28 11:54:18.107 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\9_End\Clear_L_0.png)
+2022/11/28 11:54:18.107 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\9_End\Clear_L_1.png)
+2022/11/28 11:54:18.107 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\9_End\Clear_L_2.png)
+2022/11/28 11:54:18.107 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\9_End\Clear_L_3.png)
+2022/11/28 11:54:18.107 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\9_End\Clear_L_4.png)
+2022/11/28 11:54:18.107 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\9_End\Clear_R_0.png)
+2022/11/28 11:54:18.108 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\9_End\Clear_R_1.png)
+2022/11/28 11:54:18.108 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\9_End\Clear_R_2.png)
+2022/11/28 11:54:18.108 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\9_End\Clear_R_3.png)
+2022/11/28 11:54:18.108 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\9_End\Clear_R_4.png)
+2022/11/28 11:54:18.108 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\9_End\Clear_Text.png)
+2022/11/28 11:54:18.108 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\9_End\Clear_Text_Effect.png)
+2022/11/28 11:54:18.109 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\15_Failed\Game.png)
+2022/11/28 11:54:18.109 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\15_Failed\Stage.png)
+2022/11/28 11:54:18.221 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_Game\18_PuchiChara\0.png)
+2022/11/28 11:54:18.363 [WARNING] テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\7_Exit\Background.png)
+2022/11/28 11:54:18.363 [INFO] 起動ステージを非活性化します。
+2022/11/28 11:54:18.373 [INFO]     起動ステージの非活性化を完了しました。
+2022/11/28 11:54:18.373 [INFO] ----------------------
+2022/11/28 11:54:18.374 [INFO] ■ タイトル
+2022/11/28 11:54:18.374 [INFO] タイトルステージを活性化します。
+2022/11/28 11:54:18.375 [INFO]     タイトルステージの活性化を完了しました。
+2022/11/28 11:54:18.473 [INFO] ★曲データ検索スレッドを起動しました。
+2022/11/28 11:54:18.478 [INFO] enum2) 曲データを検索します。
+2022/11/28 11:54:18.479 [INFO]     検索パス: C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\.\
+2022/11/28 11:54:18.750 [INFO]     曲データの検索を完了しました。[2曲2スコア]
+2022/11/28 11:54:18.750 [INFO] enum3) songs.db の情報を曲リストへ反映します。
+2022/11/28 11:54:18.751 [INFO]     曲リストへの反映を完了しました。[0/2スコア]
+2022/11/28 11:54:18.751 [INFO] 2, 0
+2022/11/28 11:54:18.751 [INFO] enum4) songs.db になかった曲データ[2スコア]の情報をファイルから読み込んで反映します。
+2022/11/28 11:54:18.789 [ERROR]     演奏記録ファイルの読み込みに失敗しました。[C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\Classical\天国と地獄\天国と地獄.tja.score.ini]
+2022/11/28 11:54:18.789 [ERROR]     System.IndexOutOfRangeException: インデックスが配列の境界外です。
    場所 TJAPlayer3.CSongs管理.tScoreIniを読み込んで譜面情報を設定する(String strScoreIniファイルパス, Cスコア score) 場所 C:\projects\tjaplayer3\TJAPlayer3\Songs\CSong管理.cs:行 1623
-2022/11/28 11:49:39.749 [ERROR]     例外が発生しましたが処理を継続します。 (801f823d-a952-4809-a1bb-cf6a56194f5c)
-2022/11/28 11:49:39.759 [ERROR]     演奏記録ファイルの読み込みに失敗しました。[C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\Classical\天国と地獄\天国と地獄.tja.score.ini]
-2022/11/28 11:49:39.760 [ERROR]     System.IndexOutOfRangeException: インデックスが配列の境界外です。
+2022/11/28 11:54:18.790 [ERROR]     例外が発生しましたが処理を継続します。 (801f823d-a952-4809-a1bb-cf6a56194f5c)
+2022/11/28 11:54:18.798 [ERROR]     演奏記録ファイルの読み込みに失敗しました。[C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\Classical\天国と地獄\天国と地獄.tja.score.ini]
+2022/11/28 11:54:18.798 [ERROR]     System.IndexOutOfRangeException: インデックスが配列の境界外です。
    場所 TJAPlayer3.CSongs管理.tScoreIniを読み込んで譜面情報を設定する(String strScoreIniファイルパス, Cスコア score) 場所 C:\projects\tjaplayer3\TJAPlayer3\Songs\CSong管理.cs:行 1623
-2022/11/28 11:49:39.760 [ERROR]     例外が発生しましたが処理を継続します。 (801f823d-a952-4809-a1bb-cf6a56194f5c)
-2022/11/28 11:49:39.764 [ERROR]     演奏記録ファイルの読み込みに失敗しました。[C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\Classical\天国と地獄\天国と地獄.tja.score.ini]
-2022/11/28 11:49:39.764 [ERROR]     System.IndexOutOfRangeException: インデックスが配列の境界外です。
+2022/11/28 11:54:18.798 [ERROR]     例外が発生しましたが処理を継続します。 (801f823d-a952-4809-a1bb-cf6a56194f5c)
+2022/11/28 11:54:18.803 [ERROR]     演奏記録ファイルの読み込みに失敗しました。[C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\Classical\天国と地獄\天国と地獄.tja.score.ini]
+2022/11/28 11:54:18.803 [ERROR]     System.IndexOutOfRangeException: インデックスが配列の境界外です。
    場所 TJAPlayer3.CSongs管理.tScoreIniを読み込んで譜面情報を設定する(String strScoreIniファイルパス, Cスコア score) 場所 C:\projects\tjaplayer3\TJAPlayer3\Songs\CSong管理.cs:行 1623
-2022/11/28 11:49:39.764 [ERROR]     例外が発生しましたが処理を継続します。 (801f823d-a952-4809-a1bb-cf6a56194f5c)
-2022/11/28 11:49:39.769 [ERROR]     演奏記録ファイルの読み込みに失敗しました。[C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\Classical\天国と地獄\天国と地獄.tja.score.ini]
-2022/11/28 11:49:39.769 [ERROR]     System.IndexOutOfRangeException: インデックスが配列の境界外です。
+2022/11/28 11:54:18.804 [ERROR]     例外が発生しましたが処理を継続します。 (801f823d-a952-4809-a1bb-cf6a56194f5c)
+2022/11/28 11:54:18.812 [ERROR]     演奏記録ファイルの読み込みに失敗しました。[C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\Classical\天国と地獄\天国と地獄.tja.score.ini]
+2022/11/28 11:54:18.813 [ERROR]     System.IndexOutOfRangeException: インデックスが配列の境界外です。
    場所 TJAPlayer3.CSongs管理.tScoreIniを読み込んで譜面情報を設定する(String strScoreIniファイルパス, Cスコア score) 場所 C:\projects\tjaplayer3\TJAPlayer3\Songs\CSong管理.cs:行 1623
-2022/11/28 11:49:39.769 [ERROR]     例外が発生しましたが処理を継続します。 (801f823d-a952-4809-a1bb-cf6a56194f5c)
-2022/11/28 11:49:39.769 [INFO]     曲データへの反映を完了しました。[4/1スコア]
-2022/11/28 11:49:39.769 [INFO] enum5) 曲リストへの後処理を適用します。
-2022/11/28 11:49:39.776 [INFO]     曲リストへの後処理を完了しました。
-2022/11/28 11:49:39.776 [INFO] enum6) 曲データの情報を songs.db へ出力します。
-2022/11/28 11:49:39.780 [INFO]     songs.db への出力を完了しました。[5スコア]
-2022/11/28 11:49:39.780 [INFO] enum7) 曲データの情報を songlist.db へ出力します。
-2022/11/28 11:49:39.783 [INFO]     songlist.db への出力を完了しました。[5スコア]
-2022/11/28 11:49:39.783 [INFO] 曲探索所要時間: 00:00:00.1932600
-2022/11/28 11:49:40.059 [WARNING] ファイルが存在しません。: Sounds\Title.ogg
-2022/11/28 11:49:41.475 [INFO] タイトルステージを非活性化します。
-2022/11/28 11:49:41.475 [INFO]     タイトルステージの非活性化を完了しました。
-2022/11/28 11:49:41.476 [INFO] ----------------------
-2022/11/28 11:49:41.476 [INFO] ■ 選曲
-2022/11/28 11:49:41.478 [INFO] 選曲ステージを活性化します。
-2022/11/28 11:49:41.500 [WARNING]     テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\Screen option panels.png)
-2022/11/28 11:49:41.513 [WARNING]     テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_preimage panel.png)
-2022/11/28 11:49:41.513 [WARNING]     テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_preimage default.png)
-2022/11/28 11:49:41.515 [WARNING]     テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_information_BG.png)
-2022/11/28 11:49:41.516 [WARNING]     テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_information.png)
-2022/11/28 11:49:41.516 [WARNING]     テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_information2.png)
-2022/11/28 11:49:41.517 [INFO]     選曲ステージの活性化を完了しました。
-2022/11/28 11:49:42.041 [WARNING] ファイルが存在しません。: Sounds\Select BGM.ogg
-2022/11/28 11:49:45.163 [INFO] プレビューサウンドを生成しました。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\Input Calibration\Input Calibration.ogg)
-2022/11/28 11:49:51.995 [INFO] プレビューサウンドを生成しました。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\Classical\天国と地獄\天国と地獄.ogg)
-2022/11/28 11:49:57.261 [INFO] プレビューサウンドを生成しました。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\Classical\天国と地獄\天国と地獄.ogg)
-2022/11/28 11:50:02.429 [INFO] プレビューサウンドを生成しました。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\Classical\天国と地獄\天国と地獄.ogg)
-2022/11/28 11:50:03.724 [INFO] 選曲ステージを非活性化します。
-2022/11/28 11:50:03.741 [INFO]     選曲ステージの非活性化を完了しました。
-2022/11/28 11:50:03.741 [INFO] ----------------------
-2022/11/28 11:50:03.742 [INFO] ■ タイトル
-2022/11/28 11:50:03.742 [INFO] タイトルステージを活性化します。
-2022/11/28 11:50:03.742 [INFO]     タイトルステージの活性化を完了しました。
-2022/11/28 11:50:06.073 [INFO] タイトルステージを非活性化します。
-2022/11/28 11:50:06.074 [INFO]     タイトルステージの非活性化を完了しました。
-2022/11/28 11:50:06.074 [INFO] ----------------------
-2022/11/28 11:50:06.074 [INFO] ■ 選曲
-2022/11/28 11:50:06.075 [INFO] 選曲ステージを活性化します。
-2022/11/28 11:50:06.076 [WARNING]     テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\Screen option panels.png)
-2022/11/28 11:50:06.090 [WARNING]     テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_preimage panel.png)
-2022/11/28 11:50:06.090 [WARNING]     テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_preimage default.png)
-2022/11/28 11:50:06.090 [WARNING]     テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_information_BG.png)
-2022/11/28 11:50:06.090 [WARNING]     テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_information.png)
-2022/11/28 11:50:06.090 [WARNING]     テクスチャファイルが見つかりませんでした。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_information2.png)
-2022/11/28 11:50:06.091 [INFO]     選曲ステージの活性化を完了しました。
-2022/11/28 11:50:07.989 [INFO] 選曲ステージを非活性化します。
-2022/11/28 11:50:07.998 [INFO]     選曲ステージの非活性化を完了しました。
-2022/11/28 11:50:07.999 [INFO] ----------------------
-2022/11/28 11:50:07.999 [INFO] ■ タイトル
-2022/11/28 11:50:07.999 [INFO] タイトルステージを活性化します。
-2022/11/28 11:50:08.000 [INFO]     タイトルステージの活性化を完了しました。
-2022/11/28 11:50:09.356 [INFO] タイトルステージを非活性化します。
-2022/11/28 11:50:09.357 [INFO]     タイトルステージの非活性化を完了しました。
-2022/11/28 11:50:09.357 [INFO] ----------------------
-2022/11/28 11:50:09.358 [INFO] ■ 終了
-2022/11/28 11:50:09.358 [INFO] 終了ステージを活性化します。
-2022/11/28 11:50:09.359 [INFO]     終了ステージの活性化を完了しました。
-2022/11/28 11:50:09.415 [INFO] ----------------------
-2022/11/28 11:50:09.416 [INFO] ■ アプリケーションの終了
-2022/11/28 11:50:09.416 [INFO] 曲検索actの終了処理を行います。
-2022/11/28 11:50:09.416 [INFO]     曲検索actの終了処理を完了しました。
-2022/11/28 11:50:09.416 [INFO] 現在のステージを終了します。
-2022/11/28 11:50:09.418 [INFO]     終了ステージを非活性化します。
-2022/11/28 11:50:09.419 [INFO]         終了ステージの非活性化を完了しました。
-2022/11/28 11:50:09.420 [INFO]     現在のステージの終了処理を完了しました。
-2022/11/28 11:50:09.422 [INFO] [Discord] Shutdowned.
-2022/11/28 11:50:09.422 [INFO] 曲リストの終了処理を行います。
-2022/11/28 11:50:09.422 [INFO]     曲リストの終了処理を完了しました。
-2022/11/28 11:50:09.442 [INFO] スキンの終了処理を行います。
-2022/11/28 11:50:09.467 [INFO]     スキンの終了処理を完了しました。
-2022/11/28 11:50:09.468 [INFO] DirectSound の終了処理を行います。
-2022/11/28 11:50:09.483 [INFO]     DirectSound の終了処理を完了しました。
-2022/11/28 11:50:09.483 [INFO] パッドの終了処理を行います。
-2022/11/28 11:50:09.483 [INFO]     パッドの終了処理を完了しました。
-2022/11/28 11:50:09.483 [INFO] DirectInput, MIDI入力の終了処理を行います。
-2022/11/28 11:50:09.484 [INFO]     DirectInput, MIDI入力の終了処理を完了しました。
-2022/11/28 11:50:09.484 [INFO] 文字コンソールの終了処理を行います。
-2022/11/28 11:50:09.485 [INFO]     文字コンソールの終了処理を完了しました。
-2022/11/28 11:50:09.485 [INFO] FPSカウンタの終了処理を行います。
-2022/11/28 11:50:09.485 [INFO]     FPSカウンタの終了処理を完了しました。
-2022/11/28 11:50:09.485 [INFO] タイマの終了処理を行います。
-2022/11/28 11:50:09.486 [INFO]     タイマの終了処理を完了しました。
-2022/11/28 11:50:09.486 [INFO] Config.ini を出力します。
-2022/11/28 11:50:09.500 [INFO]     保存しました。(C:\Users\st181\Downloads\TJAPlayer3_v5.2.10\TJAPlayer3_v5.2.10\Config.ini)
-2022/11/28 11:50:09.500 [INFO] Deinitializing loudness scanning, song gain control, and sound group level control...
-2022/11/28 11:50:09.500 [INFO]     LoudnessMetadataScanner.StopBackgroundScanning: Stopping background scanning thread...
-2022/11/28 11:50:09.500 [INFO]     LoudnessMetadataScanner.StopBackgroundScanning: Background scanning thread stopped.
-2022/11/28 11:50:09.501 [INFO] Deinitialized loudness scanning, song gain control, and sound group level control.
-2022/11/28 11:50:09.501 [INFO] アプリケーションの終了処理を完了しました。
+2022/11/28 11:54:18.813 [ERROR]     例外が発生しましたが処理を継続します。 (801f823d-a952-4809-a1bb-cf6a56194f5c)
+2022/11/28 11:54:18.814 [INFO]     曲データへの反映を完了しました。[5/2スコア]
+2022/11/28 11:54:18.814 [INFO] enum5) 曲リストへの後処理を適用します。
+2022/11/28 11:54:18.819 [INFO]     曲リストへの後処理を完了しました。
+2022/11/28 11:54:18.819 [INFO] enum6) 曲データの情報を songs.db へ出力します。
+2022/11/28 11:54:18.826 [INFO]     songs.db への出力を完了しました。[5スコア]
+2022/11/28 11:54:18.827 [INFO] enum7) 曲データの情報を songlist.db へ出力します。
+2022/11/28 11:54:18.834 [INFO]     songlist.db への出力を完了しました。[5スコア]
+2022/11/28 11:54:18.834 [INFO] 曲探索所要時間: 00:00:00.3561049
+2022/11/28 11:54:18.904 [WARNING] ファイルが存在しません。: Sounds\Title.ogg
+2022/11/28 11:54:46.358 [INFO] タイトルステージを非活性化します。
+2022/11/28 11:54:46.358 [INFO]     タイトルステージの非活性化を完了しました。
+2022/11/28 11:54:46.359 [INFO] ----------------------
+2022/11/28 11:54:46.360 [INFO] ■ 選曲
+2022/11/28 11:54:46.361 [INFO] 選曲ステージを活性化します。
+2022/11/28 11:54:46.369 [WARNING]     テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\Screen option panels.png)
+2022/11/28 11:54:46.387 [WARNING]     テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_preimage panel.png)
+2022/11/28 11:54:46.388 [WARNING]     テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_preimage default.png)
+2022/11/28 11:54:46.390 [WARNING]     テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_information_BG.png)
+2022/11/28 11:54:46.390 [WARNING]     テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_information.png)
+2022/11/28 11:54:46.390 [WARNING]     テクスチャファイルが見つかりませんでした。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\System\SimpleStyle\Graphics\5_information2.png)
+2022/11/28 11:54:46.391 [INFO]     選曲ステージの活性化を完了しました。
+2022/11/28 11:54:46.921 [WARNING] ファイルが存在しません。: Sounds\Select BGM.ogg
+2022/11/28 11:54:47.774 [INFO] プレビューサウンドを生成しました。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\Input Calibration\Input Calibration.ogg)
+2022/11/28 11:55:21.635 [INFO] プレビューサウンドを生成しました。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\Classical\天国と地獄\天国と地獄.ogg)
+2022/11/28 12:02:20.495 [INFO] プレビューサウンドを生成しました。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\Classical\天国と地獄\天国と地獄.ogg)
+2022/11/28 12:09:16.224 [INFO] 選曲ステージを非活性化します。
+2022/11/28 12:09:16.260 [INFO]     選曲ステージの非活性化を完了しました。
+2022/11/28 12:09:16.260 [INFO] ----------------------
+2022/11/28 12:09:16.260 [INFO] ■ タイトル
+2022/11/28 12:09:16.260 [INFO] タイトルステージを活性化します。
+2022/11/28 12:09:16.260 [INFO]     タイトルステージの活性化を完了しました。
+2022/11/28 12:09:16.842 [INFO] タイトルステージを非活性化します。
+2022/11/28 12:09:16.842 [INFO]     タイトルステージの非活性化を完了しました。
+2022/11/28 12:09:16.842 [INFO] ----------------------
+2022/11/28 12:09:16.843 [INFO] ■ 終了
+2022/11/28 12:09:16.843 [INFO] 終了ステージを活性化します。
+2022/11/28 12:09:16.844 [INFO]     終了ステージの活性化を完了しました。
+2022/11/28 12:09:16.950 [INFO] ----------------------
+2022/11/28 12:09:16.950 [INFO] ■ アプリケーションの終了
+2022/11/28 12:09:16.950 [INFO] 曲検索actの終了処理を行います。
+2022/11/28 12:09:16.951 [INFO]     曲検索actの終了処理を完了しました。
+2022/11/28 12:09:16.951 [INFO] 現在のステージを終了します。
+2022/11/28 12:09:16.951 [INFO]     終了ステージを非活性化します。
+2022/11/28 12:09:16.951 [INFO]         終了ステージの非活性化を完了しました。
+2022/11/28 12:09:16.952 [INFO]     現在のステージの終了処理を完了しました。
+2022/11/28 12:09:16.953 [INFO] [Discord] Shutdowned.
+2022/11/28 12:09:16.953 [INFO] 曲リストの終了処理を行います。
+2022/11/28 12:09:16.953 [INFO]     曲リストの終了処理を完了しました。
+2022/11/28 12:09:16.995 [INFO] スキンの終了処理を行います。
+2022/11/28 12:09:17.016 [INFO]     スキンの終了処理を完了しました。
+2022/11/28 12:09:17.016 [INFO] DirectSound の終了処理を行います。
+2022/11/28 12:09:17.037 [INFO]     DirectSound の終了処理を完了しました。
+2022/11/28 12:09:17.037 [INFO] パッドの終了処理を行います。
+2022/11/28 12:09:17.037 [INFO]     パッドの終了処理を完了しました。
+2022/11/28 12:09:17.037 [INFO] DirectInput, MIDI入力の終了処理を行います。
+2022/11/28 12:09:17.039 [INFO]     DirectInput, MIDI入力の終了処理を完了しました。
+2022/11/28 12:09:17.039 [INFO] 文字コンソールの終了処理を行います。
+2022/11/28 12:09:17.041 [INFO]     文字コンソールの終了処理を完了しました。
+2022/11/28 12:09:17.041 [INFO] FPSカウンタの終了処理を行います。
+2022/11/28 12:09:17.042 [INFO]     FPSカウンタの終了処理を完了しました。
+2022/11/28 12:09:17.042 [INFO] タイマの終了処理を行います。
+2022/11/28 12:09:17.042 [INFO]     タイマの終了処理を完了しました。
+2022/11/28 12:09:17.042 [INFO] Config.ini を出力します。
+2022/11/28 12:09:17.057 [INFO]     保存しました。(C:\Users\st181\Documents\GitHub\experiment\TJAPlayer3_v5.2.10\Config.ini)
+2022/11/28 12:09:17.057 [INFO] Deinitializing loudness scanning, song gain control, and sound group level control...
+2022/11/28 12:09:17.058 [INFO]     LoudnessMetadataScanner.StopBackgroundScanning: Stopping background scanning thread...
+2022/11/28 12:09:17.063 [INFO]     LoudnessMetadataScanner.StopBackgroundScanning: Background scanning thread stopped.
+2022/11/28 12:09:17.063 [INFO] Deinitialized loudness scanning, song gain control, and sound group level control.
+2022/11/28 12:09:17.063 [INFO] アプリケーションの終了処理を完了しました。
 
 遊んでくれてありがとう！
